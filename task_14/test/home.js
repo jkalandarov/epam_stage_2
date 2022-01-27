@@ -1,6 +1,6 @@
 const homepage = require('../pageobjects/homepage')
 
-describe('Test with selenium webdriver', function(){
+describe('I Can Win', function(){
     this.timeout(2000)
     it('Open https://pastebin.com', function(){
         //Test steps
@@ -12,16 +12,17 @@ describe('Test with selenium webdriver', function(){
         homepage.enter_paste('postform-text', 'Hello from WebDriver')
     })
 
-    // it('Paste Expiration: "10 Minutes"', function(){
-    //     homepage.set_expiration('select2-postform-expiration-container')
-    // })
-
     it('Paste Expiration: "10 Minutes"', function(){
-        homepage.set_expiration('select2-postform-expiration-results', '10 Minutes')
+        homepage.set_expiration('select2-postform-expiration-container', '10 Minutes') //couldn't choose "10 Minutes"
     })
 
-    // it('Choose 10 minutes', function(){
-    //     homepage.choose_expire_time('10')
-    // })
+    it('Paste name: helloweb', function(){
+        homepage.paste_name('postform-name', 'helloweb')
+    })
+
+    it('Click "Create New Paste"', function(){
+        homepage.click_btn()
+    })
+
 })
 

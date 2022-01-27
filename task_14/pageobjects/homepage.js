@@ -8,21 +8,17 @@ class HomePage extends BasePage {
     }
 
     async set_expiration(id, time){
-        const dropdown = await driver.findElement(By.id(`${id}`))
-        dropdown.click()
-        dropdown.findElement(By.css(`li[value="${time}"]`)).click()
-    
-    // async choose_expire_time(time){
-    //     await driver.findElement(By.css(`//*[@id="select2-postform-expiration-result-b5nq-${time}M"]`))
-    //     .click()
+        await driver.findElement(By.id(`${id}`)).click()
+        await driver.findElement(webdriver.By.css(`#select2-postform-expiration-results > option[value="${time}"]`)).click()
     }
 
     paste_name(field_id, name){
         driver.findElement(By.id(field_id)).sendKeys(name)
     }
 
-    click_btn(btn_class){
-        driver.findElement(By.className(btn_class)).click()
+    click_btn(){
+        driver.findElement(By.xpath('//*[@id="w0"]/div[5]/div[1]/div[8]/button')).click()
+        //*[@id="w0"]/div[5]/div[1]/div[8]/button
     }
 }
 
