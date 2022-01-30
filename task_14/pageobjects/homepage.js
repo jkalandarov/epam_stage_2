@@ -9,7 +9,7 @@ class HomePage extends BasePage {
 
     async set_expiration(id, time){
         await driver.findElement(By.id(`${id}`)).click()
-        await driver.findElement(webdriver.By.css(`#select2-postform-expiration-results > option[value="${time}"]`)).click()
+        await driver.findElement(By.xpath(`//li[text()="${time}"]`)).click()
     }
 
     paste_name(field_id, name){
@@ -18,7 +18,6 @@ class HomePage extends BasePage {
 
     click_btn(){
         driver.findElement(By.xpath('//*[@id="w0"]/div[5]/div[1]/div[8]/button')).click()
-        //*[@id="w0"]/div[5]/div[1]/div[8]/button
     }
 }
 
