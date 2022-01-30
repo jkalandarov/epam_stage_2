@@ -3,17 +3,22 @@ const BasePage = require('./basepage')
 var webdriver = require('selenium-webdriver')
 
 class HomePage extends BasePage {
-    enter_paste(field_id, enterText){
-        driver.findElement(By.id(field_id)).sendKeys(enterText)
+    enter_paste(id, value){
+        driver.findElement(By.id(id)).sendKeys(value, Key.ENTER)
     }
 
-    async set_expiration(id, time){
-        await driver.findElement(By.id(`${id}`)).click()
-        await driver.findElement(By.xpath(`//li[text()="${time}"]`)).click()
+    async set_syntax(id, value){
+        await driver.findElement(By.id(id)).click()
+        await driver.findElement(By.xpath(`//li[text()="${value}"]`)).click()
     }
 
-    paste_name(field_id, name){
-        driver.findElement(By.id(field_id)).sendKeys(name)
+    set_expiration(id, value){
+        driver.findElement(By.id(id)).click()
+        driver.findElement(By.xpath(`//li[text()="${value}"]`)).click()
+    }
+
+    paste_name(id, name){
+        driver.findElement(By.id(id)).sendKeys(name)
     }
 
     click_btn(){
