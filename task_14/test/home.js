@@ -1,29 +1,29 @@
 const homepage = require('../pageobjects/homepage')
 var baseUrl = 'https://pastebin.com/'
 
-// describe('I Can Win', function(){
-//     this.timeout(5000)
-//     it('Open https://pastebin.com', function(){
-//         homepage.go_to_url(baseUrl)
-//     })
+describe('I Can Win', function(){
+    this.timeout(5000)
+    it('Open https://pastebin.com', function(){
+        homepage.go_to_url(baseUrl)
+    })
 
-//     it('Paste "Hello from WebDriver"', function(){
-//         homepage.enter_paste('postform-text', 'Hello from WebDriver')
-//     })
+    it('Paste "Hello from WebDriver"', function(){
+        homepage.enter_paste('postform-text', 'Hello from WebDriver')
+    })
 
-//     it('Paste Expiration: "10 Minutes"', function(){
-//         homepage.set_expiration('select2-postform-expiration-container', '10 Minutes')
-//     })
+    it('Paste Expiration: "10 Minutes"', function(){
+        homepage.set_expiration('select2-postform-expiration-container', '10 Minutes')
+    })
 
-//     it('Paste name: helloweb', function(){
-//         homepage.paste_name('postform-name', 'helloweb')
-//     })
+    it('Paste name: helloweb', function(){
+        homepage.paste_name('postform-name', 'helloweb')
+    })
 
-//     it('Click "Create New Paste"', function(){
-//         homepage.click_btn()
-//     })
+    it('Click "Create New Paste"', function(){
+        homepage.click_btn()
+    })
 
-// })
+})
 
 describe('Bring it on', function(){
     this.timeout(5000)
