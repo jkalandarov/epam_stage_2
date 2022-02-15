@@ -1,19 +1,22 @@
 const {Builder, By, Key, until} = require('selenium-webdriver')
 const BasePage = require('./basepage')
 var webdriver = require('selenium-webdriver')
+const { elementIsVisible, elementLocated } = require('selenium-webdriver/lib/until')
+const Helper = require('../helpers/helper')
 
 class HomePage extends BasePage {
-    enter_paste(id, value){
-        driver.findElement(By.id(id)).sendKeys(value, Key.ENTER)
+    async enter_paste(id, value){
+        await Helper.findById(id).sendKeys(value, Key.ENTER)
+        await Helper.waitDOM()
     }
 
-    async set_syntax(id, value){
-        await driver.findElement(By.id(id)).click()
-        await driver.findElement(By.xpath(`//li[text()="${value}"]`)).click()
+    async set_syntax(id, className, value){
+        await Helper.findById(id).click()
+        await Helper.findByClass(className).sendKeys(value, Key.ENTER)
     }
 
-    set_expiration(id, value){
-        driver.findElement(By.id(id)).click()
+    async set_expiration(id, value){
+        await Helper.findById(id).click()
         driver.findElement(By.xpath(`//li[text()="${value}"]`)).click()
     }
 
