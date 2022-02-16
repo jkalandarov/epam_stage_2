@@ -5,28 +5,29 @@ const { elementIsVisible, elementLocated } = require('selenium-webdriver/lib/unt
 const Helper = require('../helpers/helper')
 
 class HomePage extends BasePage {
-    async enter_paste(id, value){
+    static async enter_paste(id, value){
         await Helper.findById(id).sendKeys(value, Key.ENTER)
-        await Helper.waitDOM()
     }
 
-    async set_syntax(id, className, value){
+    static async set_syntax(id, className, value){
+        // await Helper.waitForLocated(id)
         await Helper.findById(id).click()
         await Helper.findByClass(className).sendKeys(value, Key.ENTER)
     }
 
-    async set_expiration(id, value){
+    static async set_expiration(id, value){
+        await Helper.waitForLocated(id)
         await Helper.findById(id).click()
-        driver.findElement(By.xpath(`//li[text()="${value}"]`)).click()
+        await Helper.waitForLocatedByXpath(`//li[text()="${value}"]`).click()
     }
 
-    paste_name(id, name){
+    static paste_name(id, name){
         driver.findElement(By.id(id)).sendKeys(name)
     }
 
-    click_btn(){
+    static click_btn(){
         driver.findElement(By.xpath('//*[@id="w0"]/div[5]/div[1]/div[8]/button')).click()
     }
 }
 
-module.exports = new HomePage()
+module.exports = HomePage
