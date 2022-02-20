@@ -97,7 +97,7 @@ exports.config = {
     baseUrl: 'https://cloud.google.com/',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 15000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
