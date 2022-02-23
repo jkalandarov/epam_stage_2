@@ -206,7 +206,7 @@ describe('Hard core', () => {
         //Open 10 minute email in a new tab
         await browser.newWindow('https://10minutemail.com/')
         const handles = await browser.getWindowHandles()
-
+        
         //Switch to new window
         await browser.switchToWindow(handles[1])
 
@@ -223,6 +223,8 @@ describe('Hard core', () => {
     it("Open email form", async () => {
         //Open email form
         await browser.switchWindow('google.com')
+
+        await Helper.switchFrame(0)
         const emailInput = await Helper.select('input[ng-model="emailQuote.user.email"]')
         await Helper.waitExist(emailInput)
         await Helper.view(emailInput)
@@ -232,7 +234,7 @@ describe('Hard core', () => {
 
     it("Send Email", async () => {
         //Send Email
-        const sendBtn = await Helper.select('ng-click="emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()"')
+        const sendBtn = await Helper.select('ng-click="emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()"') //name="goog_1425944556"
         await Helper.waitEnabled(sendBtn)
         await Helper.view(sendBtn)
         await Helper.click(sendBtn)
