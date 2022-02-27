@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "wdio": "wdio run wdio.conf.js",
-    "test": "npx wdio --spec ./test/specs/main.js"
+    "test": "npx wdio wdio.conf.js"
   },
   "author": "",
   "license": "ISC",

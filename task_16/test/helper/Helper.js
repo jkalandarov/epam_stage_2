@@ -1,4 +1,7 @@
+const path = require("path")
+
 class Helper {
+    
     static waitExist(obj, millsec){
         if (millsec) {
             return obj.waitForExist({timeout: millsec})
@@ -24,7 +27,7 @@ class Helper {
     }    
 
     static getAddress () {
-        return 'C:\\Users\\jkala\\OneDrive\\Рабочий стол\\epam_stage_2\\task_16\\screenshots/'
+        return 'C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\screenshots\\'
     }
 
     static screenShot(fileName){
@@ -35,32 +38,10 @@ class Helper {
         return browser.switchToFrame(number)
     }
 
-    static switchFrameNested(nth){
-        for (let index = 1; index <= nth; index++) {
-            return browser.switchToFrame(0)
-        }
-    }
-
-    static select(element) {
-        return $(element)
-    }
-
     static view(obj){
         return obj.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"})
     }
 
-    static click(obj){
-        return obj.click()
-    }
-
-    static stopAndCheckError(error){
-        console.log(error)
-        // process.exit(1)
-    }
-
-    static selectBtn(){
-        return $('')
-    }
 }
 
 module.exports = Helper

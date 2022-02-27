@@ -1,220 +1,197 @@
-const { elementToBeSelected, elementToBeEnabled } = require('wdio-wait-for')
 const Helper = require('../helper/Helper')
-const address = Helper.getAddress()
+const Main = require('../pageobjects/main.page')
+const Email = require('../pageobjects/email.page')
 
 describe('Hard core', () => {
     let tempEmail, 
         searchBtn,
-        query = 'Google Cloud Platform Pricing Calculator'
+        googleWindow,
+        emailWindow
 
     it('Open Google Cloud Homepage', async () => {
-        try {
-            //Open the url
-            await browser.url('/')
-
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+       
+        //Open the url
+        await browser.url('/')
+        await expect(browser).toHaveTitleContaining('Google Cloud')
     })
     
     it('Find and click on search button', async ()=> {
-        try {
-            //Select search button
-            searchBtn = await Helper.select('.devsite-searchbox > input')
-            await Helper.waitExist(searchBtn)
-            await Helper.click(searchBtn)
+        //Select search button
+        searchBtn = await Main.searchBtn
+        await Helper.waitExist(searchBtn)
+        await searchBtn.click()
 
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        await expect(searchBtn).toExist()
     })
 
     it('Enter search query', async ()=>{
-        try {
-            //Insert search query into the search bar
-            await Helper.waitExist(searchBtn)
-            await searchBtn.setValue(query)
-            await browser.keys("\uE007")
-
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        //Insert search query into the search bar
+        await searchBtn.setValue(Main.query)
+        await browser.keys("\uE007")
+        
+        await expect(searchBtn).toHaveValue(Main.query)
     })
 
     it("Click on the necessary result", async ()=> {
-        try {
-            //Wait until DOM loads new content
-            browser.waitUntil(() => browser.execute(() => document.readyState === 'complete'),
-                {
-                  timeout: 60 * 1000, timeoutMsg: 'Message on failure'
-                }
-            )
+        //Wait until DOM loads new content
+        browser.waitUntil(() => browser.execute(() => document.readyState === 'complete'),
+            {
+                timeout: 60 * 1000, timeoutMsg: 'Failed to load DOM within a timeframe'
+            }
+        )
 
-            //Choose the result that contains search query keyword
-            const searchResult = await $(`a=${query}`)
-            await Helper.waitExist(searchResult)
-            await searchResult.click()
+        //Choose the result that contains search query keyword
+        const {searchResult} = await Main
+        await Helper.waitExist(searchResult)
+        await searchResult.click()
 
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        await expect(browser).toHaveUrlContaining('https://cloud.google.com/products/calculator')
     })
 
     it('Activate necessary section', async ()=> {
-        try {
-            //Wait until DOM loads new content
-            await browser.waitUntil(async () => await browser.execute(() => document.readyState === 'complete'),
-                {
-                timeout: 60 * 1000, // 60 seconds
-                timeoutMsg: 'Message on failure'
-                }
-            )
+        //Wait until DOM loads new content
+        await browser.waitUntil(async () => await browser.execute(() => document.readyState === 'complete'),
+            {
+            timeout: 60 * 1000, // 60 seconds
+            timeoutMsg: 'Message on failure'
+            }
+        )
 
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        //Switch to inner iframe
+        await Helper.switchFrame(0)
+        await Helper.switchFrame(0)
+
+        //Click on Compute Engine Tab
+        const {computeEngineTab} = await Main
+        await (await computeEngineTab).click()
+
+        await expect(computeEngineTab).toHaveTextContaining('COMPUTE ENGINE')
+
     })
 
     it('Choose the number instances', async () => {
-        try {
-            //Switch to inner iframe
-            await (await $('devsite-iframe > iframe')).waitForDisplayed(10000)
-            await Helper.switchFrame(0)
-            await (await $('#myFrame')).waitForDisplayed(10000)
-            await Helper.switchFrame(0)
+        //Set number of instances value
+        const {instanceInput} = await Main
+        await instanceInput.setValue(4)
 
-            //Set number of instances value
-            const numOfInstances = await Helper.select('input[ng-model="listingCtrl.computeServer.quantity"]')
-            await numOfInstances.setValue(4)
-
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        await expect(instanceInput).toHaveValue("4")
     })
 
     it("Select machine type", async () => {
-        try {
-            //Select Machine Type input
-            const machineTypeInput = await Helper.select('md-select[ng-model="listingCtrl.computeServer.instance"]')
-            await Helper.waitExist(machineTypeInput, 5000)
-            await Helper.click(machineTypeInput)
-            await Helper.view(machineTypeInput)
+        //Select Machine Type input
+        const {machineType} = await Main
+        await Helper.waitExist(machineType, 5000)
+        await machineType.click()
+        await Helper.view(machineType)
 
-            //Select field e2-standard-8
-            const e2_standard_8 = await Helper.select('//div[contains(., "e2-standard-8")]')
-            await e2_standard_8.waitForDisplayed()
-            await Helper.click(e2_standard_8)
+        //Select field e2-standard-8
+        const {machineValue} = await Main
+        await machineValue.waitForDisplayed()
+        await machineValue.click()
 
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        await expect(machineType).toBeClickable()
+        await expect(machineValue).toHaveTextContaining('e2-standard-8')
     })
 
     //GPUs aren't available for selected machine type. 
     it.skip("Add GPUs", async () => {
-        try {
-            //Activate Add GPU checkbox
-            const activateGPUsCheckBox = await Helper.select('md-checkbox[ng-model="listingCtrl.soleTenant.addGPUs"]')
-            await Helper.view(activateGPUsCheckBox)
-            await Helper.click(activateGPUsCheckBox)
+        //Activate Add GPU checkbox
+        const {gpuCheckBox} = await Main
+        await Helper.view(gpuCheckBox)
+        await gpuCheckBox.click()
 
-            //Select GPU type input
-            const chooseGPUtype = await Helper.select('md-select[ng-model="listingCtrl.soleTenant.gpuType"]')
-            await Helper.click(chooseGPUtype)
+        //Select GPU type input
+        const {gpuType} = await Main
+        await gpuType.click()
 
-            //Select Nvidia V100
-            const chooseNVIDIA = await Helper.select('//div[contains(., "Tesla V100")]') //md-option[value="NVIDIA_TESLA_V100"]
-            await Helper.view(chooseNVIDIA)
-            await Helper.click(chooseNVIDIA)
+        //Select Nvidia V100
+        const {chooseNVIDIA} = await Main
+        await Helper.view(chooseNVIDIA)
+        await chooseNVIDIA.click()
 
-            //Select GPU count input
-            const openNumberOfGPUs = await Helper.select('md-select[ng-model="listingCtrl.soleTenant.gpuCount"]')
-            await Helper.click(openNumberOfGPUs)
+        //Select GPU count input
+        const {numberOfGPUs} = await Main
+        await numberOfGPUs.click()
 
-            //Select 8 GPU count
-            const choose8GPUs = await Helper.select('md-option[value="8"]')
-            await Helper.click(choose8GPUs)
-
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        //Select 8 GPU count
+        const {gpuCount} = await Main
+        await gpuCount.click()
     })
 
     it("Choose datacenter location", async () => {
-        try {
-            //Data center location
-            const datacenter = await Helper.select('md-select[ng-model="listingCtrl.computeServer.location"]')
-            await Helper.click(datacenter)
-            await Helper.view(datacenter)
+        //Data center location
+        const {datacenter} = await Main
+        await datacenter.click()
+        await Helper.view(datacenter)
 
-            //Choose Frankfurt
-            const city = await $$('md-option[value="europe-west3"]')[2]
-            
-            await Helper.view(city)
-            await Helper.waitVisible(city)
-            await Helper.click(city)
+        //Choose Frankfurt
+        const {city} = await Main
+        
+        await Helper.view(city)
+        await Helper.waitVisible(city)
+        await city.click()
 
-            //Committed usage
-            const commit = await Helper.select('md-select[ng-model="listingCtrl.computeServer.cud"]')
-            await Helper.click(commit)
-            const commitOption = await $$('md-option[ng-value="1"]')[1]
-            await Helper.waitEnabled(commitOption)
-            await Helper.click(commitOption)
-            await Helper.view(commitOption)
+        //Committed usage
+        const {commit} = await Main
+        await commit.click()
+        const {commitOption} = await Main
+        await Helper.waitEnabled(commitOption)
+        await commitOption.click()
+        await Helper.view(commitOption)
 
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        await expect(city).toHaveValueContaining('west3')
+        await expect(commit).toHaveTextContaining('1')
     })
 
     //Not related to estimation
     it.skip('Should choose SSD input', async ()=>{
-        try {
-            //Select Local SSD input
-            const openLocalSSD = await Helper.select('md-select[ng-model="listingCtrl.soleTenant.ssd"]')
-            await Helper.click(openLocalSSD)
-            await Helper.view(openLocalSSD)            
+        //Select Local SSD input
+        const {localSSD} = await Main
+        await localSSD.click()
+        await Helper.view(localSSD)            
 
-            //Choose SSD value
-            const chooseSSD = Helper.select('//div[contains(., "24")]') //md-option[ng-value="24"]
-            await Helper.click(chooseSSD)
-            await Helper.view(chooseSSD)
-
-        } catch (error) {
-            Helper.stopAndCheckError(error)
-        }
+        //Choose SSD value
+        const {chooseSSD} = await Main
+        await chooseSSD.click()
+        await Helper.view(chooseSSD)
     })
 
     it("Add to Estimate", async () => {
         //Select Estimate button
-        const estimateBtn = await Helper.select('form[name="ComputeEngineForm"] > div > button')
+        const {estimateBtn} = await Main
         await Helper.waitExist(estimateBtn)
         await Helper.view(estimateBtn)
-        await Helper.click(estimateBtn)
+        await estimateBtn.click()
         await Helper.screenShot('button')
     })
 
     it("Email Estimate", async () => {
         //Email Estimate
-        const emailBtn = Helper.select('button[id="email_quote"]')
+        const {emailBtn} = await Main
         await Helper.waitExist(emailBtn)
         await Helper.view(emailBtn)
-        await Helper.click(emailBtn)
+        await emailBtn.click()
+
+        googleWindow = await browser.getWindowHandle()
+
+        await expect(emailBtn).toHaveTextContaining('EMAIL')
     })
 
     it("Open temporary email service", async () => {
         //Open 10 minute email in a new tab
-        await browser.newWindow('https://10minutemail.com/')
+        await browser.newWindow('https://tempail.com/en/')
         const handles = await browser.getWindowHandles()
         
-        //Switch to new window
+        // //Switch to new window
         await browser.switchToWindow(handles[1])
 
-        //Copy the value of email address
-        const emailAddress = await $('#mail_address')
-        await Helper.waitExist(emailAddress)
-        tempEmail = emailAddress.getText()
-        await browser.closeWindow()
+        //Get the value of email address
+        await browser.pause(5000)
+        const {emailAddress} = Email
+        await Helper.waitVisible(emailAddress, 5000)
+        
+        tempEmail = await emailAddress.getValue()
+        await expect(emailAddress).toHaveValueContaining('.com')
 
         //Switch back to parent window
         await browser.switchToWindow(handles[0])
@@ -222,22 +199,23 @@ describe('Hard core', () => {
 
     it("Open email form", async () => {
         //Open email form
-        await browser.switchWindow('google.com')
-
         await Helper.switchFrame(0)
-        const emailInput = await Helper.select('input[ng-model="emailQuote.user.email"]')
+        await Helper.switchFrame(0)
+        const {emailInput} = await Email
         await Helper.waitExist(emailInput)
         await Helper.view(emailInput)
-        await Helper.click(emailInput)
         await emailInput.setValue(tempEmail)
+        
+        await expect(emailInput).toHaveValue(tempEmail)
     })
 
     it("Send Email", async () => {
         //Send Email
-        const sendBtn = await Helper.select('ng-click="emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()"') //name="goog_1425944556"
+        const {sendBtn} = await Main
         await Helper.waitEnabled(sendBtn)
         await Helper.view(sendBtn)
-        await Helper.click(sendBtn)
+        await sendBtn.click()
     })
+
 })
 
