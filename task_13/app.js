@@ -3,13 +3,13 @@ var Chef = function () {
     this.customers = 5
 }
 
-Chef.prototype.checkMenu = function() {
-    let dish = this.dishes[Math.floor(Math.random()*this.dishes.length)]
-    // console.log("I'd like to have ", dish)
-    return dish
+const Cook = new Chef()
+
+Cook.checkMenu = function() {
+    return this.dishes[Math.floor(Math.random()*this.dishes.length)]
 }
 
-Chef.prototype.customersFed = function() {
+Cook.customersFed = function() {
     if (this.customers >=1){
         console.log('Customer fed with yummy food')
         this.customers--
@@ -22,25 +22,15 @@ Chef.prototype.customersFed = function() {
     }
     return this.customers
 }
-
-let chef = new Chef()
-
-
 class Calculator {
-    constructor (input1, input2) {
-        this.num1 = parseInt(input1)
-        this.num2 = parseInt(input2)
-    }
 
     add (num1, num2) {
-        return this.num1 + this.num2
+        return num1 + num2
     }
 
     multipliy (num1, num2) {
-        return this.num1 * this.num2
+        return num1 * num2
     }
 }
 
-
-
-module.exports = { chef, Calculator }
+module.exports = { Cook, Calculator }
