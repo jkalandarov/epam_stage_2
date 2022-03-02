@@ -33,11 +33,11 @@ describe('Check calculator', function(){
     let calc = new Calculator()
 
     it('check if it adds values', function(){
-        assert.isNumber(calc.add(4, 5), 'number')
+        assert.equal(calc.add(4, 5), 9)
     })
 
     it('check if it multiplies values', function(){
-        assert.isNumber(calc.multipliy(2, 9), 'number')
+        assert.equal(calc.multipliy(2, 9), 18)
     })
 
 })
