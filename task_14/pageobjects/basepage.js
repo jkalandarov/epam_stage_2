@@ -9,9 +9,8 @@ class BasePage {
         global.driver = driver
     }
 
-    static async go_to_url(url){
+    static async goToUrl(url){
         await driver.get(url)
-        await driver.manage().setTimeouts( { implicit: 10000 } )
     }
 }
 
