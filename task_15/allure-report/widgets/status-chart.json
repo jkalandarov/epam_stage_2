@@ -1,0 +1,91 @@
+[ {
+  "uid" : "83f2520990846e87",
+  "name" : "Should have paste text inserted",
+  "time" : {
+    "start" : 1647010224187,
+    "stop" : 1647010224191,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8825490261844829",
+  "name" : "Paste Title: helloweb",
+  "time" : {
+    "start" : 1647010221642,
+    "stop" : 1647010221841,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec216a1326ab43c8",
+  "name" : "Should have expiration time",
+  "time" : {
+    "start" : 1647010224180,
+    "stop" : 1647010224186,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e68b0a99784edaf5",
+  "name" : "Create a New Paste",
+  "time" : {
+    "start" : 1647010221245,
+    "stop" : 1647010221405,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fdcf767608f6025",
+  "name" : "Press 'Create New Paste' button",
+  "time" : {
+    "start" : 1647010221841,
+    "stop" : 1647010224125,
+    "duration" : 2284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f37daf4bf04cf071",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1647010194157,
+    "stop" : 1647010209865,
+    "duration" : 15708
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4634646d2a1eee2e",
+  "name" : "Paste Expiration: 10 Minutes",
+  "time" : {
+    "start" : 1647010221405,
+    "stop" : 1647010221642,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d05b3b028cc858c4",
+  "name" : "Should have page title",
+  "time" : {
+    "start" : 1647010224125,
+    "stop" : 1647010224176,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19819d8295c9daea",
+  "name" : "Open pastebin page",
+  "time" : {
+    "start" : 1647010193973,
+    "stop" : 1647010221244,
+    "duration" : 27271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

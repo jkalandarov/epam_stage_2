@@ -1,0 +1,93 @@
+{
+  "uid" : "19819d8295c9daea",
+  "name" : "Open pastebin page",
+  "fullName" : "I Can Win.Open pastebin page",
+  "historyId" : "925f11bb3e4fa50edf6d3aa444474f0b",
+  "time" : {
+    "start" : 1647010193973,
+    "stop" : 1647010221244,
+    "duration" : 27271
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647010193977,
+        "stop" : 1647010221242,
+        "duration" : 27265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "493c1226fb6ae546",
+        "name" : "Request",
+        "source" : "493c1226fb6ae546.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open pastebin page"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19819d8295c9daea.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

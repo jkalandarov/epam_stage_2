@@ -1,0 +1,114 @@
+{
+  "uid" : "6fdcf767608f6025",
+  "name" : "Press 'Create New Paste' button",
+  "fullName" : "I Can Win.Press 'Create New Paste' button",
+  "historyId" : "b60dbf74f11d3b55949953d41c0a559e",
+  "time" : {
+    "start" : 1647010221841,
+    "stop" : 1647010224125,
+    "duration" : 2284
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647010221841,
+        "stop" : 1647010221871,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83b01480f6648be2",
+        "name" : "Request",
+        "source" : "83b01480f6648be2.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "36c7d7e4a0ecebb3",
+        "name" : "Response",
+        "source" : "36c7d7e4a0ecebb3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/859e9be4-c948-4eaa-9678-6d75069adfbf/click",
+      "time" : {
+        "start" : 1647010221875,
+        "stop" : 1647010224124,
+        "duration" : 2249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Press 'Create New Paste' button"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fdcf767608f6025.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

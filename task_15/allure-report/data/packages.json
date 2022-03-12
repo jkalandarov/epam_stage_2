@@ -1,0 +1,166 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "I Can Win",
+    "children" : [ {
+      "name" : "Open pastebin page",
+      "uid" : "19819d8295c9daea",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010193973,
+        "stop" : 1647010221244,
+        "duration" : 27271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    }, {
+      "name" : "Create a New Paste",
+      "uid" : "e68b0a99784edaf5",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010221245,
+        "stop" : 1647010221405,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    }, {
+      "name" : "Paste Expiration: 10 Minutes",
+      "uid" : "4634646d2a1eee2e",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010221405,
+        "stop" : 1647010221642,
+        "duration" : 237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    }, {
+      "name" : "Paste Title: helloweb",
+      "uid" : "8825490261844829",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010221642,
+        "stop" : 1647010221841,
+        "duration" : 199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    }, {
+      "name" : "Press 'Create New Paste' button",
+      "uid" : "6fdcf767608f6025",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010221841,
+        "stop" : 1647010224125,
+        "duration" : 2284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    }, {
+      "name" : "Should have page title",
+      "uid" : "d05b3b028cc858c4",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010224125,
+        "stop" : 1647010224176,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    }, {
+      "name" : "Should have expiration time",
+      "uid" : "ec216a1326ab43c8",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010224180,
+        "stop" : 1647010224186,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    }, {
+      "name" : "Should have paste text inserted",
+      "uid" : "83f2520990846e87",
+      "parentUid" : "a94ac2ca11ca775184e336eb81af360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010224187,
+        "stop" : 1647010224191,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    } ],
+    "uid" : "a94ac2ca11ca775184e336eb81af360f"
+  }, {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "f37daf4bf04cf071",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647010194157,
+        "stop" : 1647010209865,
+        "duration" : 15708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.51" ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  } ]
+}
