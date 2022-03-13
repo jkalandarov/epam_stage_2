@@ -1,0 +1,91 @@
+{
+  "uid" : "5bd9a9f656025434",
+  "name" : "Open Google Cloud Homepage",
+  "fullName" : "Hard core.Open Google Cloud Homepage",
+  "historyId" : "c33199b9cd537a01f5262c5014f1477e",
+  "time" : {
+    "start" : 1647170806190,
+    "stop" : 1647170814115,
+    "duration" : 7925
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647170806192,
+        "stop" : 1647170814114,
+        "duration" : 7922
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a78b75cf53158ec",
+        "name" : "Request",
+        "source" : "5a78b75cf53158ec.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open Google Cloud Homepage"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bd9a9f656025434.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

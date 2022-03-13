@@ -1,0 +1,244 @@
+{
+  "uid" : "cf8ad43c61b313b4",
+  "name" : "Open email form",
+  "fullName" : "Hard core.Open email form",
+  "historyId" : "d0f46673202d87cd40b1649600cf134d",
+  "time" : {
+    "start" : 1647176586767,
+    "stop" : 1647176587216,
+    "duration" : 449
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1647176586768,
+        "stop" : 1647176586794,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fef8796780f1184",
+        "name" : "Request",
+        "source" : "8fef8796780f1184.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1647176586794,
+        "stop" : 1647176586815,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9f4c7289549e59c",
+        "name" : "Request",
+        "source" : "f9f4c7289549e59c.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647176586815,
+        "stop" : 1647176586836,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0e1df9c5d528a49",
+        "name" : "Request",
+        "source" : "d0e1df9c5d528a49.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "58f6ed37e3a5959e",
+        "name" : "Response",
+        "source" : "58f6ed37e3a5959e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647176586841,
+        "stop" : 1647176586857,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb61104cb1d28515",
+        "name" : "Request",
+        "source" : "cb61104cb1d28515.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "745bdf43b635e96e",
+        "name" : "Response",
+        "source" : "745bdf43b635e96e.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1647176586862,
+        "stop" : 1647176586877,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3077bbcff4bcdf59",
+        "name" : "Request",
+        "source" : "3077bbcff4bcdf59.json",
+        "type" : "application/json",
+        "size" : 384
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/2dc6f0fb-f25b-433e-8351-ba23cc7f4822/clear",
+      "time" : {
+        "start" : 1647176586877,
+        "stop" : 1647176586917,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/2dc6f0fb-f25b-433e-8351-ba23cc7f4822/value",
+      "time" : {
+        "start" : 1647176586919,
+        "stop" : 1647176587163,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "264173d1fd34edf6",
+        "name" : "Request",
+        "source" : "264173d1fd34edf6.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/2dc6f0fb-f25b-433e-8351-ba23cc7f4822/property/value",
+      "time" : {
+        "start" : 1647176587165,
+        "stop" : 1647176587215,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29400114d73a55eb",
+        "name" : "Response",
+        "source" : "29400114d73a55eb.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open email form"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf8ad43c61b313b4.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

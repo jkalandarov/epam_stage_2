@@ -1,0 +1,95 @@
+{
+  "uid" : "800ad46881d8d384",
+  "name" : "Should have Frankfurt chosen",
+  "fullName" : "Hard core.Should have Frankfurt chosen",
+  "historyId" : "e12a119e635116cf012c8bf2cab50ad5",
+  "time" : {
+    "start" : 1647167897134,
+    "stop" : 1647167897261,
+    "duration" : 127
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+  "statusTrace" : "TypeError: CalculatorPage.selectDivWithClassContainingText is not a function\n                    at Context.<anonymous> (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\test\\specs\\main.js:144:51)\n                    at Context.executeAsync (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+    "statusTrace" : "TypeError: CalculatorPage.selectDivWithClassContainingText is not a function\n                    at Context.<anonymous> (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\test\\specs\\main.js:144:51)\n                    at Context.executeAsync (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1647167897135,
+        "stop" : 1647167897260,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd1d65a441c1fcf4",
+        "name" : "Screenshot",
+        "source" : "fd1d65a441c1fcf4.png",
+        "type" : "image/png",
+        "size" : 80994
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have Frankfurt chosen"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "800ad46881d8d384.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

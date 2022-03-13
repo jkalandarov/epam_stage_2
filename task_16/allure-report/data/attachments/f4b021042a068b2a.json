@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//a[normalize-space() = \"Google Cloud Platform Pricing Calculator\"]\"}\n  (Session info: chrome=99.0.4844.51)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x004A7AC3+2587331]\n\tOrdinal0 [0x0043ADD1+2141649]\n\tOrdinal0 [0x00333BB8+1063864]\n\tOrdinal0 [0x003601CE+1245646]\n\tOrdinal0 [0x003603CB+1246155]\n\tOrdinal0 [0x0038A612+1418770]\n\tOrdinal0 [0x003786D4+1345236]\n\tOrdinal0 [0x00388A0A+1411594]\n\tOrdinal0 [0x003784A6+1344678]\n\tOrdinal0 [0x003553F6+1201142]\n\tOrdinal0 [0x003562E6+1204966]\n\tGetHandleVerifier [0x0064DF22+1680738]\n\tGetHandleVerifier [0x00700DBC+2413564]\n\tGetHandleVerifier [0x0053D151+563089]\n\tGetHandleVerifier [0x0053BF13+558419]\n\tOrdinal0 [0x0044081E+2164766]\n\tOrdinal0 [0x00445508+2184456]\n\tOrdinal0 [0x00445650+2184784]\n\tOrdinal0 [0x0044F5BC+2225596]\n\tBaseThreadInitThunk [0x75846739+25]\n\tRtlGetFullPathName_UEx [0x77228E7F+1215]\n\tRtlGetFullPathName_UEx [0x77228E4D+1165]\n"
+}

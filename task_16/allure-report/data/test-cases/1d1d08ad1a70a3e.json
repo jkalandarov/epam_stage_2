@@ -1,0 +1,139 @@
+{
+  "uid" : "1d1d08ad1a70a3e",
+  "name" : "Should have Instance type selected",
+  "fullName" : "Hard core.Should have Instance type selected",
+  "historyId" : "b3c39930fb99004958bee22835f4ada2",
+  "time" : {
+    "start" : 1647176533908,
+    "stop" : 1647176536951,
+    "duration" : 3043
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647176533908,
+        "stop" : 1647176533923,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa0e790f80f6a53b",
+        "name" : "Request",
+        "source" : "aa0e790f80f6a53b.json",
+        "type" : "application/json",
+        "size" : 129
+      }, {
+        "uid" : "b69ea51457a40504",
+        "name" : "Response",
+        "source" : "b69ea51457a40504.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/d3477f90-afba-4dbf-8470-738311b3ffef/text",
+      "time" : {
+        "start" : 1647176534387,
+        "stop" : 1647176536942,
+        "duration" : 2555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c27bbc4cae604baf",
+        "name" : "Response",
+        "source" : "c27bbc4cae604baf.json",
+        "type" : "application/json",
+        "size" : 1083
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647176536952,
+        "stop" : 0,
+        "duration" : -1647176536952
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e68f5af5e2081f16",
+        "name" : "Request",
+        "source" : "e68f5af5e2081f16.json",
+        "type" : "application/json",
+        "size" : 129
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have Instance type selected"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d1d08ad1a70a3e.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

@@ -1,0 +1,218 @@
+{
+  "uid" : "918a3830debd9a3f",
+  "name" : "Open email form",
+  "fullName" : "Hard core.Open email form",
+  "historyId" : "d0f46673202d87cd40b1649600cf134d",
+  "time" : {
+    "start" : 1647177217837,
+    "stop" : 1647177231213,
+    "duration" : 13376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"input[ng-model=\"emailQuote.user.email\"]\") still not existing after 5000ms",
+  "statusTrace" : "Error: element (\"input[ng-model=\"emailQuote.user.email\"]\") still not existing after 5000ms\n                    at C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\test\\specs\\main.js:203:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"input[ng-model=\"emailQuote.user.email\"]\") still not existing after 5000ms",
+    "statusTrace" : "Error: element (\"input[ng-model=\"emailQuote.user.email\"]\") still not existing after 5000ms\n                    at C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\test\\specs\\main.js:203:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1647177217837,
+        "stop" : 1647177217876,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f602f438b554df5f",
+        "name" : "Request",
+        "source" : "f602f438b554df5f.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1647177217876,
+        "stop" : 1647177217888,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eba9f7de9f50a003",
+        "name" : "Request",
+        "source" : "eba9f7de9f50a003.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647177217889,
+        "stop" : 1647177220933,
+        "duration" : 3044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8cca9f6e2b72e2d",
+        "name" : "Request",
+        "source" : "c8cca9f6e2b72e2d.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "4c0ea834948a5259",
+        "name" : "Response",
+        "source" : "4c0ea834948a5259.json",
+        "type" : "application/json",
+        "size" : 1039
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177220941,
+        "stop" : 1647177223957,
+        "duration" : 3016
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "976edd13779c7078",
+        "name" : "Request",
+        "source" : "976edd13779c7078.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "48a09421b52841f7",
+        "name" : "Response",
+        "source" : "48a09421b52841f7.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177223964,
+        "stop" : 1647177231213,
+        "duration" : 7249
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647177225956,
+          "stop" : 1647177227024,
+          "duration" : 1068
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9c47f40321eb160e",
+          "name" : "Response",
+          "source" : "9c47f40321eb160e.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "b9284673fe0ea864",
+        "name" : "Request",
+        "source" : "b9284673fe0ea864.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "b8ab673835cbd528",
+        "name" : "Screenshot",
+        "source" : "b8ab673835cbd528.png",
+        "type" : "image/png",
+        "size" : 81108
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open email form"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "918a3830debd9a3f.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

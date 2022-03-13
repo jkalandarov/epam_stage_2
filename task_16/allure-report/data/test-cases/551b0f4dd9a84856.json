@@ -1,0 +1,139 @@
+{
+  "uid" : "551b0f4dd9a84856",
+  "name" : "Find and click on search button",
+  "fullName" : "Hard core.Find and click on search button",
+  "historyId" : "b3ec7e782c916b8ddef4df465ad1fc7f",
+  "time" : {
+    "start" : 1647177133392,
+    "stop" : 1647177136390,
+    "duration" : 2998
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647177133395,
+        "stop" : 1647177133414,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f81e9f07fa1fe352",
+        "name" : "Request",
+        "source" : "f81e9f07fa1fe352.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "6611107282a69612",
+        "name" : "Response",
+        "source" : "6611107282a69612.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177133425,
+        "stop" : 1647177133445,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd9e424badcced0d",
+        "name" : "Request",
+        "source" : "cd9e424badcced0d.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "552a9007cbd8514b",
+        "name" : "Response",
+        "source" : "552a9007cbd8514b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/5a435eb9-2b15-41fd-8de1-17e1f604e9d9/click",
+      "time" : {
+        "start" : 1647177133449,
+        "stop" : 1647177136389,
+        "duration" : 2940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Find and click on search button"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "551b0f4dd9a84856.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "md-select[ng-model=\"listingCtrl.computeServer.cud\"]"
+}

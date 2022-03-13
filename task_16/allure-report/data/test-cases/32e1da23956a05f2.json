@@ -1,0 +1,306 @@
+{
+  "uid" : "32e1da23956a05f2",
+  "name" : "Email Estimate",
+  "fullName" : "Hard core.Email Estimate",
+  "historyId" : "1f161b7942c4f1d628545dd0149cd74e",
+  "time" : {
+    "start" : 1647177186581,
+    "stop" : 1647177206449,
+    "duration" : 19868
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <iframe src=\"https://cloud.google.com/products/calculator/index_d6a98ba38837346d20babc06ff2153b68c2990fa24322fe52c5f83ec3a78c6a0.frame?hl=sv\" allow=\"clipboard-write https://cloud-dot-devsite-v2-prod.appspot.com\" allowfullscreen=\"\" name=\"goog_1236944978\" cd_frame_id_=\"fcaed1c04e39fe9f018996a436179fb0\"></iframe> is not clickable at point (933, 61). Other element would receive the click: <nav class=\"devsite-tabs-wrapper\" aria-label=\"Upper tabs\" style=\"--scroll-animation-duration:250ms; --scroll-offset:0px;\">...</nav>\n                  (Session info: chrome=99.0.4844.51)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x004A7AC3+2587331]\n                \tOrdinal0 [0x0043ADD1+2141649]\n                \tOrdinal0 [0x00333BB8+1063864]\n                \tOrdinal0 [0x003665FF+1271295]\n                \tOrdinal0 [0x00364849+1263689]\n                \tOrdinal0 [0x003629A0+1255840]\n                \tOrdinal0 [0x00361289+1249929]\n                \tOrdinal0 [0x00356DD3+1207763]\n                \tOrdinal0 [0x0037868C+1345164]\n                \tOrdinal0 [0x003567A4+1206180]\n                \tOrdinal0 [0x003787E4+1345508]\n                \tOrdinal0 [0x00388A0A+1411594]\n                \tOrdinal0 [0x003784A6+1344678]\n                \tOrdinal0 [0x003553F6+1201142]\n                \tOrdinal0 [0x003562E6+1204966]\n                \tGetHandleVerifier [0x0064DF22+1680738]\n                \tGetHandleVerifier [0x00700DBC+2413564]\n                \tGetHandleVerifier [0x0053D151+563089]\n                \tGetHandleVerifier [0x0053BF13+558419]\n                \tOrdinal0 [0x0044081E+2164766]\n                \tOrdinal0 [0x00445508+2184456]\n                \tOrdinal0 [0x00445650+2184784]\n                \tOrdinal0 [0x0044F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <iframe src=\"https://cloud.google.com/products/calculator/index_d6a98ba38837346d20babc06ff2153b68c2990fa24322fe52c5f83ec3a78c6a0.frame?hl=sv\" allow=\"clipboard-write https://cloud-dot-devsite-v2-prod.appspot.com\" allowfullscreen=\"\" name=\"goog_1236944978\" cd_frame_id_=\"fcaed1c04e39fe9f018996a436179fb0\"></iframe> is not clickable at point (933, 61). Other element would receive the click: <nav class=\"devsite-tabs-wrapper\" aria-label=\"Upper tabs\" style=\"--scroll-animation-duration:250ms; --scroll-offset:0px;\">...</nav>\n                  (Session info: chrome=99.0.4844.51)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x004A7AC3+2587331]\n                \tOrdinal0 [0x0043ADD1+2141649]\n                \tOrdinal0 [0x00333BB8+1063864]\n                \tOrdinal0 [0x003665FF+1271295]\n                \tOrdinal0 [0x00364849+1263689]\n                \tOrdinal0 [0x003629A0+1255840]\n                \tOrdinal0 [0x00361289+1249929]\n                \tOrdinal0 [0x00356DD3+1207763]\n                \tOrdinal0 [0x0037868C+1345164]\n                \tOrdinal0 [0x003567A4+1206180]\n                \tOrdinal0 [0x003787E4+1345508]\n                \tOrdinal0 [0x00388A0A+1411594]\n                \tOrdinal0 [0x003784A6+1344678]\n                \tOrdinal0 [0x003553F6+1201142]\n                \tOrdinal0 [0x003562E6+1204966]\n                \tGetHandleVerifier [0x0064DF22+1680738]\n                \tGetHandleVerifier [0x00700DBC+2413564]\n                \tGetHandleVerifier [0x0053D151+563089]\n                \tGetHandleVerifier [0x0053BF13+558419]\n                \tOrdinal0 [0x0044081E+2164766]\n                \tOrdinal0 [0x00445508+2184456]\n                \tOrdinal0 [0x00445650+2184784]\n                \tOrdinal0 [0x0044F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647177186581,
+        "stop" : 1647177186589,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a41a6c37a1c8ee0e",
+        "name" : "Request",
+        "source" : "a41a6c37a1c8ee0e.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "f9d444ee17f6917a",
+        "name" : "Response",
+        "source" : "f9d444ee17f6917a.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/b6ca49d4-7410-4f57-8e73-2005aef4d05e/text",
+      "time" : {
+        "start" : 1647177186598,
+        "stop" : 1647177189643,
+        "duration" : 3045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e45696d976088a3",
+        "name" : "Response",
+        "source" : "e45696d976088a3.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177189646,
+        "stop" : 1647177192656,
+        "duration" : 3010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f2032c3877d024f5",
+        "name" : "Request",
+        "source" : "f2032c3877d024f5.json",
+        "type" : "application/json",
+        "size" : 122
+      }, {
+        "uid" : "b397b958e4ddd847",
+        "name" : "Response",
+        "source" : "b397b958e4ddd847.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177192671,
+        "stop" : 1647177192676,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18bd086057de58f3",
+        "name" : "Request",
+        "source" : "18bd086057de58f3.json",
+        "type" : "application/json",
+        "size" : 129
+      }, {
+        "uid" : "b96b3a67c417556d",
+        "name" : "Response",
+        "source" : "b96b3a67c417556d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177192680,
+        "stop" : 1647177192724,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab584c0343fee476",
+        "name" : "Request",
+        "source" : "ab584c0343fee476.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "58e85a3da9bc0fca",
+        "name" : "Response",
+        "source" : "58e85a3da9bc0fca.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177198786,
+        "stop" : 1647177198795,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6022a7f3c143654e",
+        "name" : "Request",
+        "source" : "6022a7f3c143654e.json",
+        "type" : "application/json",
+        "size" : 129
+      }, {
+        "uid" : "242ef6421cc6d0fc",
+        "name" : "Response",
+        "source" : "242ef6421cc6d0fc.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1647177198799,
+        "stop" : 1647177201837,
+        "duration" : 3038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33561fea88bbadc4",
+        "name" : "Request",
+        "source" : "33561fea88bbadc4.json",
+        "type" : "application/json",
+        "size" : 384
+      }, {
+        "uid" : "a8a31b21dbef8077",
+        "name" : "Response",
+        "source" : "a8a31b21dbef8077.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/cabaebc8-7d48-402f-9bb9-02dac901ce63/click",
+      "time" : {
+        "start" : 1647177201846,
+        "stop" : 1647177206449,
+        "duration" : 4603
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x004A7AC3+2587331]\n                \tOrdinal0 [0x0043ADD1+2141649]\n                \tOrdinal0 [0x00333BB8+1063864]\n                \tOrdinal0 [0x003665FF+1271295]\n                \tOrdinal0 [0x00364849+1263689]\n                \tOrdinal0 [0x003629A0+1255840]\n                \tOrdinal0 [0x00361289+1249929]\n                \tOrdinal0 [0x00356DD3+1207763]\n                \tOrdinal0 [0x0037868C+1345164]\n                \tOrdinal0 [0x003567A4+1206180]\n                \tOrdinal0 [0x003787E4+1345508]\n                \tOrdinal0 [0x00388A0A+1411594]\n                \tOrdinal0 [0x003784A6+1344678]\n                \tOrdinal0 [0x003553F6+1201142]\n                \tOrdinal0 [0x003562E6+1204966]\n                \tGetHandleVerifier [0x0064DF22+1680738]\n                \tGetHandleVerifier [0x00700DBC+2413564]\n                \tGetHandleVerifier [0x0053D151+563089]\n                \tGetHandleVerifier [0x0053BF13+558419]\n                \tOrdinal0 [0x0044081E+2164766]\n                \tOrdinal0 [0x00445508+2184456]\n                \tOrdinal0 [0x00445650+2184784]\n                \tOrdinal0 [0x0044F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647177206328,
+          "stop" : 1647177206448,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a3776fd309443e8d",
+          "name" : "Screenshot",
+          "source" : "a3776fd309443e8d.png",
+          "type" : "image/png",
+          "size" : 81108
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "f4d22930cdbee9e3",
+      "name" : "Response",
+      "source" : "f4d22930cdbee9e3.json",
+      "type" : "application/json",
+      "size" : 2
+    }, {
+      "uid" : "2eeca8b78d483f20",
+      "name" : "Response",
+      "source" : "2eeca8b78d483f20.json",
+      "type" : "application/json",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Email Estimate"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32e1da23956a05f2.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "607926702f2e05f5",
+  "name" : "Add GPUs",
+  "fullName" : "Hard core.Add GPUs",
+  "historyId" : "b326934804288af0b17f2641490f937a",
+  "time" : {
+    "start" : 1647170366372,
+    "stop" : 1647170366372,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add GPUs"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "607926702f2e05f5.json",
+  "parameterValues" : [ ]
+}

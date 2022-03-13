@@ -3,31 +3,23 @@ const path = require("path")
 class Helper {
     
     static waitExist(obj, millsec){
-        if (millsec) {
-            return obj.waitForExist({timeout: millsec})
-        } else {
-            return obj.waitForExist()
-        }
+        return obj.waitForExist({timeout: millsec || 5000})
     }
 
     static waitEnabled(obj, millsec){
-        if (millsec) {
-            return obj.waitForEnabled({timeout: millsec})
-        } else {
-            return obj.waitForEnabled()
-        }
+        return obj.waitForEnabled({timeout: millsec || 5000})
     }
 
     static waitVisible (obj, millsec){
-        if (millsec) {
-            return obj.waitForDisplayed({timeout: millsec})
-        } else {
-            return obj.waitForDisplayed()
-        }
+        return obj.waitForDisplayed({timeout: millsec || 5000})
     }    
 
     static getAddress () {
-        return 'C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\screenshots\\'
+        return './screenshots';
+    }
+
+    static waitImplicit(implicit = 3000, pageLoad = 10000, script = 5000) {
+        return browser.setTimeout({ implicit: implicit, pageLoad: pageLoad, script: script });
     }
 
     static screenShot(fileName){

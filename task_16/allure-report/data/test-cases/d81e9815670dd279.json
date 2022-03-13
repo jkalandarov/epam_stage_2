@@ -1,0 +1,176 @@
+{
+  "uid" : "d81e9815670dd279",
+  "name" : "Add to Estimate",
+  "fullName" : "Hard core.Add to Estimate",
+  "historyId" : "b93da839455ce3f8141dcc9d2408990e",
+  "time" : {
+    "start" : 1647170770587,
+    "stop" : 1647170780077,
+    "duration" : 9490
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"form[name=\"ComputeEngineForm\"] > div > button\") still not existing after 5000ms",
+  "statusTrace" : "Error: element (\"form[name=\"ComputeEngineForm\"] > div > button\") still not existing after 5000ms\n                    at C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\test\\specs\\main.js:143:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"form[name=\"ComputeEngineForm\"] > div > button\") still not existing after 5000ms",
+    "statusTrace" : "Error: element (\"form[name=\"ComputeEngineForm\"] > div > button\") still not existing after 5000ms\n                    at C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\test\\specs\\main.js:143:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647170770587,
+        "stop" : 1647170773742,
+        "duration" : 3155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10763a67aab31ac5",
+        "name" : "Request",
+        "source" : "10763a67aab31ac5.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "7a48d0de57b07184",
+        "name" : "Response",
+        "source" : "7a48d0de57b07184.json",
+        "type" : "application/json",
+        "size" : 1045
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647170773746,
+        "stop" : 1647170776854,
+        "duration" : 3108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6990d4c24db9bb88",
+        "name" : "Request",
+        "source" : "6990d4c24db9bb88.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "67b07b220dc5bbfb",
+        "name" : "Response",
+        "source" : "67b07b220dc5bbfb.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647170776876,
+        "stop" : 1647170780077,
+        "duration" : 3201
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647170778750,
+          "stop" : 1647170779929,
+          "duration" : 1179
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cc9c649b6cc3acd",
+          "name" : "Response",
+          "source" : "cc9c649b6cc3acd.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "764ba8568a2cc89b",
+        "name" : "Request",
+        "source" : "764ba8568a2cc89b.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "dd8dd29298dd6f1c",
+        "name" : "Screenshot",
+        "source" : "dd8dd29298dd6f1c.png",
+        "type" : "image/png",
+        "size" : 122168
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add to Estimate"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d81e9815670dd279.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

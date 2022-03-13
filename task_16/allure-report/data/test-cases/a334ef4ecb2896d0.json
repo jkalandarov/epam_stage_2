@@ -1,0 +1,186 @@
+{
+  "uid" : "a334ef4ecb2896d0",
+  "name" : "Add to Estimate",
+  "fullName" : "Hard core.Add to Estimate",
+  "historyId" : "b93da839455ce3f8141dcc9d2408990e",
+  "time" : {
+    "start" : 1647170369080,
+    "stop" : 1647170373629,
+    "duration" : 4549
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button class=\"md-raised md-primary cpc-button md-button md-ink-ripple\" type=\"button\" ng-transclude=\"\" ng-disabled=\"ComputeEngineForm.$invalid || !listingCtrl.machineType['computeServer']\" ng-click=\"listingCtrl.addComputeServer(ComputeEngineForm);\" aria-label=\"Add to Estimate\">...</button> is not clickable at point (629, 1327). Other element would receive the click: <md-backdrop class=\"md-select-backdrop md-click-catcher ng-scope\" style=\"position: fixed;\"></md-backdrop>\n                  (Session info: chrome=99.0.4844.51)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x004B7AC3+2587331]\n                \tOrdinal0 [0x0044ADD1+2141649]\n                \tOrdinal0 [0x00343BB8+1063864]\n                \tOrdinal0 [0x003765FF+1271295]\n                \tOrdinal0 [0x00374849+1263689]\n                \tOrdinal0 [0x0037248B+1254539]\n                \tOrdinal0 [0x00371289+1249929]\n                \tOrdinal0 [0x00366DD3+1207763]\n                \tOrdinal0 [0x0038868C+1345164]\n                \tOrdinal0 [0x003667A4+1206180]\n                \tOrdinal0 [0x003887E4+1345508]\n                \tOrdinal0 [0x00398A0A+1411594]\n                \tOrdinal0 [0x003884A6+1344678]\n                \tOrdinal0 [0x003653F6+1201142]\n                \tOrdinal0 [0x003662E6+1204966]\n                \tGetHandleVerifier [0x0065DF22+1680738]\n                \tGetHandleVerifier [0x00710DBC+2413564]\n                \tGetHandleVerifier [0x0054D151+563089]\n                \tGetHandleVerifier [0x0054BF13+558419]\n                \tOrdinal0 [0x0045081E+2164766]\n                \tOrdinal0 [0x00455508+2184456]\n                \tOrdinal0 [0x00455650+2184784]\n                \tOrdinal0 [0x0045F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <button class=\"md-raised md-primary cpc-button md-button md-ink-ripple\" type=\"button\" ng-transclude=\"\" ng-disabled=\"ComputeEngineForm.$invalid || !listingCtrl.machineType['computeServer']\" ng-click=\"listingCtrl.addComputeServer(ComputeEngineForm);\" aria-label=\"Add to Estimate\">...</button> is not clickable at point (629, 1327). Other element would receive the click: <md-backdrop class=\"md-select-backdrop md-click-catcher ng-scope\" style=\"position: fixed;\"></md-backdrop>\n                  (Session info: chrome=99.0.4844.51)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x004B7AC3+2587331]\n                \tOrdinal0 [0x0044ADD1+2141649]\n                \tOrdinal0 [0x00343BB8+1063864]\n                \tOrdinal0 [0x003765FF+1271295]\n                \tOrdinal0 [0x00374849+1263689]\n                \tOrdinal0 [0x0037248B+1254539]\n                \tOrdinal0 [0x00371289+1249929]\n                \tOrdinal0 [0x00366DD3+1207763]\n                \tOrdinal0 [0x0038868C+1345164]\n                \tOrdinal0 [0x003667A4+1206180]\n                \tOrdinal0 [0x003887E4+1345508]\n                \tOrdinal0 [0x00398A0A+1411594]\n                \tOrdinal0 [0x003884A6+1344678]\n                \tOrdinal0 [0x003653F6+1201142]\n                \tOrdinal0 [0x003662E6+1204966]\n                \tGetHandleVerifier [0x0065DF22+1680738]\n                \tGetHandleVerifier [0x00710DBC+2413564]\n                \tGetHandleVerifier [0x0054D151+563089]\n                \tGetHandleVerifier [0x0054BF13+558419]\n                \tOrdinal0 [0x0045081E+2164766]\n                \tOrdinal0 [0x00455508+2184456]\n                \tOrdinal0 [0x00455650+2184784]\n                \tOrdinal0 [0x0045F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647170369081,
+        "stop" : 1647170369104,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b389f71a5ceb382",
+        "name" : "Request",
+        "source" : "7b389f71a5ceb382.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "f0be023f8a185e11",
+        "name" : "Response",
+        "source" : "f0be023f8a185e11.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647170369107,
+        "stop" : 1647170369132,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f60b66b32e038de",
+        "name" : "Request",
+        "source" : "3f60b66b32e038de.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "526067e585f52989",
+        "name" : "Response",
+        "source" : "526067e585f52989.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1647170369135,
+        "stop" : 1647170369147,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b79c4869036f9dde",
+        "name" : "Request",
+        "source" : "b79c4869036f9dde.json",
+        "type" : "application/json",
+        "size" : 384
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/f5e95485-9c78-4482-8500-cce44275cc49/click",
+      "time" : {
+        "start" : 1647170369147,
+        "stop" : 1647170373629,
+        "duration" : 4482
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x004B7AC3+2587331]\n                \tOrdinal0 [0x0044ADD1+2141649]\n                \tOrdinal0 [0x00343BB8+1063864]\n                \tOrdinal0 [0x003765FF+1271295]\n                \tOrdinal0 [0x00374849+1263689]\n                \tOrdinal0 [0x0037248B+1254539]\n                \tOrdinal0 [0x00371289+1249929]\n                \tOrdinal0 [0x00366DD3+1207763]\n                \tOrdinal0 [0x0038868C+1345164]\n                \tOrdinal0 [0x003667A4+1206180]\n                \tOrdinal0 [0x003887E4+1345508]\n                \tOrdinal0 [0x00398A0A+1411594]\n                \tOrdinal0 [0x003884A6+1344678]\n                \tOrdinal0 [0x003653F6+1201142]\n                \tOrdinal0 [0x003662E6+1204966]\n                \tGetHandleVerifier [0x0065DF22+1680738]\n                \tGetHandleVerifier [0x00710DBC+2413564]\n                \tGetHandleVerifier [0x0054D151+563089]\n                \tGetHandleVerifier [0x0054BF13+558419]\n                \tOrdinal0 [0x0045081E+2164766]\n                \tOrdinal0 [0x00455508+2184456]\n                \tOrdinal0 [0x00455650+2184784]\n                \tOrdinal0 [0x0045F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647170373453,
+          "stop" : 1647170373628,
+          "duration" : 175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "28317b95b6249f89",
+          "name" : "Screenshot",
+          "source" : "28317b95b6249f89.png",
+          "type" : "image/png",
+          "size" : 74816
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add to Estimate"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a334ef4ecb2896d0.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

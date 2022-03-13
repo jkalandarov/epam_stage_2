@@ -1,0 +1,160 @@
+{
+  "uid" : "7a985354c01f58ad",
+  "name" : "Click on the necessary result",
+  "fullName" : "Hard core.Click on the necessary result",
+  "historyId" : "448dc82c5fb398f439ecd6f40b7cab01",
+  "time" : {
+    "start" : 1647170534057,
+    "stop" : 1647170544141,
+    "duration" : 10084
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/timeouts",
+      "time" : {
+        "start" : 1647170534057,
+        "stop" : 1647170534076,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "962513d8ff139bb6",
+        "name" : "Request",
+        "source" : "962513d8ff139bb6.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647170534076,
+        "stop" : 1647170536358,
+        "duration" : 2282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2de87e369cdb0514",
+        "name" : "Request",
+        "source" : "2de87e369cdb0514.json",
+        "type" : "application/json",
+        "size" : 107
+      }, {
+        "uid" : "c2b041f8ffc04ec4",
+        "name" : "Response",
+        "source" : "c2b041f8ffc04ec4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647170536363,
+        "stop" : 1647170536397,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81567ba9b9e074e",
+        "name" : "Request",
+        "source" : "81567ba9b9e074e.json",
+        "type" : "application/json",
+        "size" : 107
+      }, {
+        "uid" : "6da6489a6b5a5fec",
+        "name" : "Response",
+        "source" : "6da6489a6b5a5fec.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/70b2b19a-8cfb-45c1-9e6a-0c3aaab7bb12/click",
+      "time" : {
+        "start" : 1647170536403,
+        "stop" : 1647170544141,
+        "duration" : 7738
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on the necessary result"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a985354c01f58ad.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}
