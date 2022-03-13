@@ -1,0 +1,152 @@
+{
+  "uid" : "844c2ac4cdf963a9",
+  "name" : "Press 'Create New Paste' button",
+  "fullName" : "Bring It On.Press 'Create New Paste' button",
+  "historyId" : "149f9f62be817155001a8675fb4adedb",
+  "time" : {
+    "start" : 1647160047884,
+    "stop" : 1647160048017,
+    "duration" : 133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160047885,
+        "stop" : 1647160047931,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d307b352bbaa047c",
+        "name" : "Request",
+        "source" : "d307b352bbaa047c.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "30e61bfa348f671c",
+        "name" : "Response",
+        "source" : "30e61bfa348f671c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1647160047935,
+        "stop" : 1647160047953,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19695cf986efb499",
+        "name" : "Request",
+        "source" : "19695cf986efb499.json",
+        "type" : "application/json",
+        "size" : 381
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element/1c1f0010-a1bb-4bc4-897f-b6b65c6dd5c7/click",
+      "time" : {
+        "start" : 1647160047953,
+        "stop" : 1647160048017,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Press 'Create New Paste' button"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "74c720139de0ef2f",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button type=\"submit\" class=\"btn -big\">...</button> is not clickable at point (519, 898). Other element would receive the click: <div style=\"position: fixed; z-index: 2147483646; transition: all 0.5s ease 0s; box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 6px 0px; background-color: rgba(250, 250, 250, 0.8); text-align: center; width: 100%; height: 94px; left: 50%; padding-top: 4px; bottom: 0px; transform: translateX(-50%);\" id=\"vi-smartbanner\" data-id=\"vi-smartbanner-unit\">...</div>\n                  (Session info: chrome=99.0.4844.51)",
+      "time" : {
+        "start" : 1647159888422,
+        "stop" : 1647159893583,
+        "duration" : 5161
+      }
+    }, {
+      "uid" : "adb7e8c50efd26c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159758959,
+        "stop" : 1647159759458,
+        "duration" : 499
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "844c2ac4cdf963a9.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

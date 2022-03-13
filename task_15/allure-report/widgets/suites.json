@@ -1,6 +1,17 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
+    "uid" : "b8644e525139ab5da0dc6f549440d6fa",
+    "name" : "Bring It On",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
     "uid" : "5995a82b905c19a409f9d73539e56f3b",
     "name" : "I Can Win",
     "statistic" : {

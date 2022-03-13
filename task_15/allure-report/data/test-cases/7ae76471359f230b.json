@@ -1,0 +1,124 @@
+{
+  "uid" : "7ae76471359f230b",
+  "name" : "Syntax is suspended for bash",
+  "fullName" : "Bring It On.Syntax is suspended for bash",
+  "historyId" : "8a12420e2518a3a4ed79c2169f2986bd",
+  "time" : {
+    "start" : 1647159893643,
+    "stop" : 1647159893701,
+    "duration" : 58
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647159893644,
+        "stop" : 1647159893683,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d219297d2eb1d6ea",
+        "name" : "Request",
+        "source" : "d219297d2eb1d6ea.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "727ac99811177852",
+        "name" : "Response",
+        "source" : "727ac99811177852.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647159893701,
+        "stop" : 0,
+        "duration" : -1647159893701
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb6befa7fb32e6d",
+        "name" : "Request",
+        "source" : "cb6befa7fb32e6d.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "9e9e11a81e9f388e",
+      "name" : "Response",
+      "source" : "9e9e11a81e9f388e.json",
+      "type" : "application/json",
+      "size" : 1011
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Syntax is suspended for bash"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ae76471359f230b.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

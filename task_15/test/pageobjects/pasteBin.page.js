@@ -11,6 +11,14 @@ class PasteBinPage {
         return $('#select2-postform-expiration-container');
     }
 
+    get syntaxDropDownList() {
+        return $('#select2-postform-format-container');
+    }
+    
+    chooseSyntax(syntax) {
+        return $(`//li[text()="${syntax}"]`);
+    }
+
     chooseExpirationTime(time) {
         return $(`//li[text()="${time}"]`);
     }
@@ -32,7 +40,15 @@ class PasteBinPage {
     }
 
     get pastedTextField() {
-        return $('.de1');
+        return $('.textarea');
+    }
+
+    syntaxSelected(syntax) {
+        return $(`//a[text()="${syntax}"]`);
+    }
+
+    get pageTitle() {
+        return $('.info-top > h1');
     }
 }
 

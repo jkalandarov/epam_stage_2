@@ -1,0 +1,154 @@
+{
+  "uid" : "89c4cb3e0973485c",
+  "name" : "Paste Expiration: 10 Minutes",
+  "fullName" : "I Can Win.Paste Expiration: 10 Minutes",
+  "historyId" : "9846f735caa0f813262cc6c5f6c4d08f",
+  "time" : {
+    "start" : 1647160022581,
+    "stop" : 1647160022806,
+    "duration" : 225
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160022582,
+        "stop" : 1647160022605,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b5939fb0cad49cd",
+        "name" : "Request",
+        "source" : "2b5939fb0cad49cd.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "63a75a38e9825292",
+        "name" : "Response",
+        "source" : "63a75a38e9825292.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/0b43d7da-9d5a-44b1-b442-b8d7e6d50f15/click",
+      "time" : {
+        "start" : 1647160022609,
+        "stop" : 1647160022669,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160022669,
+        "stop" : 1647160022702,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "609358698cbbb42",
+        "name" : "Request",
+        "source" : "609358698cbbb42.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "4dbcec469b5cb571",
+        "name" : "Response",
+        "source" : "4dbcec469b5cb571.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/60b6b8a0-9ef3-4b08-938c-d822002ad75b/click",
+      "time" : {
+        "start" : 1647160022705,
+        "stop" : 1647160022806,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Paste Expiration: 10 Minutes"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89c4cb3e0973485c.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

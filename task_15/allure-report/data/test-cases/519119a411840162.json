@@ -1,0 +1,109 @@
+{
+  "uid" : "519119a411840162",
+  "name" : "Should have expiration time",
+  "fullName" : "I Can Win.Should have expiration time",
+  "historyId" : "2871a98af255f933a3ec3cb68b2373bf",
+  "time" : {
+    "start" : 1647160069122,
+    "stop" : 1647160069126,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160069123,
+        "stop" : 0,
+        "duration" : -1647160069123
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b26debf2ecce23de",
+        "name" : "Request",
+        "source" : "b26debf2ecce23de.json",
+        "type" : "application/json",
+        "size" : 51
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have expiration time"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6f52ef9ce60dbc22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647160027535,
+        "stop" : 1647160027541,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "fee6c97a1ea679ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159858307,
+        "stop" : 1647159858310,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "519119a411840162.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

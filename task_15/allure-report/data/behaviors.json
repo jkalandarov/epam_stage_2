@@ -3,155 +3,308 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Open pastebin page",
-    "uid" : "19819d8295c9daea",
+    "uid" : "e8f8125061bfb8ab",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010193973,
-      "stop" : 1647010221244,
-      "duration" : 27271
+      "start" : 1647160040866,
+      "stop" : 1647160046350,
+      "duration" : 5484
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-99.0.4844.51" ]
-  }, {
-    "name" : "should login with valid credentials",
-    "uid" : "f37daf4bf04cf071",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647010194157,
-      "stop" : 1647010209865,
-      "duration" : 15708
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-99.0.4844.51" ]
   }, {
     "name" : "Create a New Paste",
-    "uid" : "e68b0a99784edaf5",
+    "uid" : "b37fcc58cb1a9720",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010221245,
-      "stop" : 1647010221405,
-      "duration" : 160
+      "start" : 1647160046350,
+      "stop" : 1647160046911,
+      "duration" : 561
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Set syntax highlighting",
+    "uid" : "e8f4399433d82a36",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160046911,
+      "stop" : 1647160047170,
+      "duration" : 259
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-99.0.4844.51" ]
   }, {
     "name" : "Paste Expiration: 10 Minutes",
-    "uid" : "4634646d2a1eee2e",
+    "uid" : "e12a48884a7dfa20",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010221405,
-      "stop" : 1647010221642,
-      "duration" : 237
+      "start" : 1647160047170,
+      "stop" : 1647160047325,
+      "duration" : 155
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-99.0.4844.51" ]
   }, {
-    "name" : "Paste Title: helloweb",
-    "uid" : "8825490261844829",
+    "name" : "Paste Title: how to gain dominance among developers",
+    "uid" : "ba96199ad2edf08f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010221642,
-      "stop" : 1647010221841,
-      "duration" : 199
+      "start" : 1647160047325,
+      "stop" : 1647160047884,
+      "duration" : 559
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-99.0.4844.51" ]
   }, {
     "name" : "Press 'Create New Paste' button",
-    "uid" : "6fdcf767608f6025",
+    "uid" : "844c2ac4cdf963a9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010221841,
-      "stop" : 1647010224125,
-      "duration" : 2284
+      "start" : 1647160047884,
+      "stop" : 1647160048017,
+      "duration" : 133
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-99.0.4844.51" ]
   }, {
     "name" : "Should have page title",
-    "uid" : "d05b3b028cc858c4",
+    "uid" : "14f529e46d54ad27",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010224125,
-      "stop" : 1647010224176,
-      "duration" : 51
+      "start" : 1647160048017,
+      "stop" : 1647160048088,
+      "duration" : 71
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-99.0.4844.51" ]
   }, {
-    "name" : "Should have expiration time",
-    "uid" : "ec216a1326ab43c8",
+    "name" : "Syntax is suspended for bash",
+    "uid" : "c4e9690154060c37",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010224180,
-      "stop" : 1647010224186,
-      "duration" : 6
+      "start" : 1647160048133,
+      "stop" : 1647160049882,
+      "duration" : 1749
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-99.0.4844.51" ]
   }, {
-    "name" : "Should have paste text inserted",
-    "uid" : "83f2520990846e87",
+    "name" : "Check that the code matches the one entered in paragraph 2",
+    "uid" : "831707cc343e502c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647010224187,
-      "stop" : 1647010224191,
+      "start" : 1647160049885,
+      "stop" : 1647160049889,
       "duration" : 4
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "acd9530feff81f8a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160052759,
+      "stop" : 1647160059541,
+      "duration" : 6782
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Open pastebin page",
+    "uid" : "23072df01cadb255",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160062125,
+      "stop" : 1647160068269,
+      "duration" : 6144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Create a New Paste",
+    "uid" : "9f76232f732c91c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160068269,
+      "stop" : 1647160068442,
+      "duration" : 173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Paste Expiration: 10 Minutes",
+    "uid" : "ce59ae9442e4c363",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160068442,
+      "stop" : 1647160068775,
+      "duration" : 333
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Paste Title: helloweb",
+    "uid" : "6b65a86b7ea8705f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160068775,
+      "stop" : 1647160068972,
+      "duration" : 197
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Press 'Create New Paste' button",
+    "uid" : "7a67f3f991bffff7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160068972,
+      "stop" : 1647160069037,
+      "duration" : 65
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Should have page title",
+    "uid" : "ca65364f8ea27877",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160069038,
+      "stop" : 1647160069117,
+      "duration" : 79
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Should have expiration time",
+    "uid" : "519119a411840162",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160069122,
+      "stop" : 1647160069126,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Should have paste text inserted",
+    "uid" : "1d61d1fc1e96b633",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647160069127,
+      "stop" : 1647160069131,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-99.0.4844.51" ]
   } ]

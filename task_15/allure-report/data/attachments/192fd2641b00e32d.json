@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"helloweb\"}\n  (Session info: chrome=99.0.4844.51)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x01279943+2595139]\n\tOrdinal0 [0x0120C9F1+2148849]\n\tOrdinal0 [0x01104528+1066280]\n\tOrdinal0 [0x01130FD4+1249236]\n\tOrdinal0 [0x011311CB+1249739]\n\tOrdinal0 [0x0115D812+1431570]\n\tOrdinal0 [0x0114BA34+1358388]\n\tOrdinal0 [0x0115BAF2+1424114]\n\tOrdinal0 [0x0114B806+1357830]\n\tOrdinal0 [0x01126086+1204358]\n\tOrdinal0 [0x01126F96+1208214]\n\tGetHandleVerifier [0x0141B232+1658114]\n\tGetHandleVerifier [0x014D312C+2411516]\n\tGetHandleVerifier [0x0130F261+560433]\n\tGetHandleVerifier [0x0130E366+556598]\n\tOrdinal0 [0x0121286B+2173035]\n\tOrdinal0 [0x012175F8+2192888]\n\tOrdinal0 [0x012176E5+2193125]\n\tOrdinal0 [0x012211FC+2232828]\n\tBaseThreadInitThunk [0x76F36739+25]\n\tRtlGetFullPathName_UEx [0x776A8E7F+1215]\n\tRtlGetFullPathName_UEx [0x776A8E4D+1165]\n"
-}
