@@ -23,7 +23,6 @@ Cook.customersFed = function() {
     return this.customers
 }
 
-
 class Calculator {
     add (num1, num2) {
         return num1 + num2
@@ -33,7 +32,5 @@ class Calculator {
         return num1 * num2
     }
 }
-
-
 
 module.exports = { Cook, Calculator }

@@ -20,7 +20,6 @@ describe('Chef test', ()=>{
     })
 })
 
-
 describe('Index', function(){
     it('should return -1 when the value is not present', function(){
         let array = [1,2,3]
