@@ -4,6 +4,7 @@ var Chef = function () {
 }
 
 const Cook = new Chef()
+
 Cook.checkMenu = function() {
     return this.dishes[Math.floor(Math.random()*this.dishes.length)]
 }
@@ -31,7 +32,5 @@ class Calculator {
         return num1 * num2
     }
 }
-
-
 
 module.exports = { Cook, Calculator }

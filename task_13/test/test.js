@@ -23,6 +23,7 @@ describe('Chef test', ()=>{
 describe('Index', function(){
     it('should return -1 when the value is not present', function(){
         let array = [1,2,3]
+        console.log('checking if 4 exists in ', array)
         assert.equal(array.indexOf(4), -1)
     })
 })
@@ -31,11 +32,11 @@ describe('Check calculator', function(){
     let calc = new Calculator()
 
     it('check if it adds values', function(){
-        assert.isNumber(calc.add(4, 5), 'number')
+        assert.equal(calc.add(4, 5), 9)
     })
 
     it('check if it multiplies values', function(){
-        assert.isNumber(calc.multipliy(2, 9), 'number')
+        assert.equal(calc.multipliy(2, 9), 18)
     })
 
 })

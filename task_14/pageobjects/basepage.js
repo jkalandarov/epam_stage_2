@@ -9,8 +9,8 @@ class BasePage {
         global.driver = driver
     }
 
-    go_to_url(url){
-        driver.get(url)
+    static async goToUrl(url){
+        await driver.get(url)
     }
 }
 
