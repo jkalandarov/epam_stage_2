@@ -1,0 +1,130 @@
+{
+  "uid" : "e8f8125061bfb8ab",
+  "name" : "Open pastebin page",
+  "fullName" : "Bring It On.Open pastebin page",
+  "historyId" : "649c362b6bdee1eda3b52713c71781aa",
+  "time" : {
+    "start" : 1647160040866,
+    "stop" : 1647160046350,
+    "duration" : 5484
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1647160040869,
+        "stop" : 1647160041004,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db7b418ae7cdd4f",
+        "name" : "Response",
+        "source" : "db7b418ae7cdd4f.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647160041005,
+        "stop" : 1647160046349,
+        "duration" : 5344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aad66146cb90077c",
+        "name" : "Request",
+        "source" : "aad66146cb90077c.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open pastebin page"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2664a3973f620d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159880422,
+        "stop" : 1647159886620,
+        "duration" : 6198
+      }
+    }, {
+      "uid" : "74b41799cd528161",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159751073,
+        "stop" : 1647159756899,
+        "duration" : 5826
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8f8125061bfb8ab.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

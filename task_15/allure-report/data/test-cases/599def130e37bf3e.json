@@ -1,0 +1,118 @@
+{
+  "uid" : "599def130e37bf3e",
+  "name" : "Should have page title",
+  "fullName" : "Bring It On.Should have page title",
+  "historyId" : "147777f7af0aea54821bee5827a7a9de",
+  "time" : {
+    "start" : 1647159759458,
+    "stop" : 1647159759519,
+    "duration" : 61
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647159759458,
+        "stop" : 1647159759510,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7959b4b8a592315b",
+        "name" : "Request",
+        "source" : "7959b4b8a592315b.json",
+        "type" : "application/json",
+        "size" : 79
+      }, {
+        "uid" : "1407120e101e5f66",
+        "name" : "Response",
+        "source" : "1407120e101e5f66.json",
+        "type" : "application/json",
+        "size" : 1033
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647159759520,
+        "stop" : 0,
+        "duration" : -1647159759520
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd6e21813ec72dd4",
+        "name" : "Request",
+        "source" : "cd6e21813ec72dd4.json",
+        "type" : "application/json",
+        "size" : 79
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have page title"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "599def130e37bf3e.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

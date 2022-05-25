@@ -1,0 +1,154 @@
+{
+  "uid" : "db7e0116f8cd9c80",
+  "name" : "Set syntax highlighting",
+  "fullName" : "Bring It On.Set syntax highlighting",
+  "historyId" : "285a631ef004e1adb3afcf37f89ac2c3",
+  "time" : {
+    "start" : 1647159887155,
+    "stop" : 1647159887472,
+    "duration" : 317
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647159887156,
+        "stop" : 1647159887223,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbc45e17253ee93d",
+        "name" : "Request",
+        "source" : "bbc45e17253ee93d.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "6bf8d816db98be9d",
+        "name" : "Response",
+        "source" : "6bf8d816db98be9d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/d88694c1-db39-4ab2-9c75-b93705779348/click",
+      "time" : {
+        "start" : 1647159887228,
+        "stop" : 1647159887383,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647159887383,
+        "stop" : 1647159887404,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc5421a4deb7bd12",
+        "name" : "Request",
+        "source" : "fc5421a4deb7bd12.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "f92d72382afefc3b",
+        "name" : "Response",
+        "source" : "f92d72382afefc3b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/b5deba29-2d7a-453a-a535-14eaccb3ad9f/click",
+      "time" : {
+        "start" : 1647159887406,
+        "stop" : 1647159887471,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Set syntax highlighting"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db7e0116f8cd9c80.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

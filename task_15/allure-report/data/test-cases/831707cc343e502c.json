@@ -1,0 +1,109 @@
+{
+  "uid" : "831707cc343e502c",
+  "name" : "Check that the code matches the one entered in paragraph 2",
+  "fullName" : "Bring It On.Check that the code matches the one entered in paragraph 2",
+  "historyId" : "fe1e02cd00b794bed9330cdaee9a7795",
+  "time" : {
+    "start" : 1647160049885,
+    "stop" : 1647160049889,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160049886,
+        "stop" : 0,
+        "duration" : -1647160049886
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e10822f78b72fc9",
+        "name" : "Request",
+        "source" : "3e10822f78b72fc9.json",
+        "type" : "application/json",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check that the code matches the one entered in paragraph 2"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42c3a5163d6d824c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159893705,
+        "stop" : 1647159893709,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "f04dde21ee0deff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159759571,
+        "stop" : 1647159759575,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "831707cc343e502c.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

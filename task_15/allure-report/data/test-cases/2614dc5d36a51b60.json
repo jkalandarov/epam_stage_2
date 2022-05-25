@@ -1,0 +1,118 @@
+{
+  "uid" : "2614dc5d36a51b60",
+  "name" : "Should have page title",
+  "fullName" : "I Can Win.Should have page title",
+  "historyId" : "b1a6c8607c76193ddf3785a6b6b6c5ab",
+  "time" : {
+    "start" : 1647159858250,
+    "stop" : 1647159858301,
+    "duration" : 51
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647159858251,
+        "stop" : 1647159858290,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1b307743540c151",
+        "name" : "Request",
+        "source" : "a1b307743540c151.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "71ce6872bbbdaad2",
+        "name" : "Response",
+        "source" : "71ce6872bbbdaad2.json",
+        "type" : "application/json",
+        "size" : 1003
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647159858304,
+        "stop" : 0,
+        "duration" : -1647159858304
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e376199b6ea7f48",
+        "name" : "Request",
+        "source" : "3e376199b6ea7f48.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have page title"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2614dc5d36a51b60.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

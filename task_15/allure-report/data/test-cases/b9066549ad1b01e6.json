@@ -1,0 +1,133 @@
+{
+  "uid" : "b9066549ad1b01e6",
+  "name" : "Paste Title: how to gain dominance among developers",
+  "fullName" : "Bring It On.Paste Title: how to gain dominance among developers",
+  "historyId" : "da92b1f71c0fdbdc27803af4b44d017b",
+  "time" : {
+    "start" : 1647159887679,
+    "stop" : 1647159888422,
+    "duration" : 743
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647159887679,
+        "stop" : 1647159887761,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b151a04d979dd558",
+        "name" : "Request",
+        "source" : "b151a04d979dd558.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "196c20ad4d41714b",
+        "name" : "Response",
+        "source" : "196c20ad4d41714b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/c0a9a0d9-a6c6-4726-9308-27765ed096b2/clear",
+      "time" : {
+        "start" : 1647159887768,
+        "stop" : 1647159887802,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c0a9a0d9-a6c6-4726-9308-27765ed096b2/value",
+      "time" : {
+        "start" : 1647159887804,
+        "stop" : 1647159888421,
+        "duration" : 617
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "59c07d3b33681cc7",
+        "name" : "Request",
+        "source" : "59c07d3b33681cc7.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Paste Title: how to gain dominance among developers"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9066549ad1b01e6.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}
