@@ -1,0 +1,235 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-02T15:12:46.159Z",
+    "end": "2022-03-02T15:12:46.213Z",
+    "duration": 54,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0472498c-0283-49dc-bb2f-ef869da9c2a0",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cc90c002-bd56-4eb3-b5b5-5cad3d8cb88e",
+          "title": "Chef test",
+          "fullFile": "C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_13\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "check if the dish has a valid name",
+              "fullTitle": "Chef test check if the dish has a valid name",
+              "timedOut": false,
+              "duration": 4,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.isString(Cook.checkMenu(), 'string')",
+              "err": {},
+              "uuid": "f2d1d0da-1800-4115-ac89-c789825de858",
+              "parentUUID": "cc90c002-bd56-4eb3-b5b5-5cad3d8cb88e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "check for a dish in a menu",
+              "fullTitle": "Chef test check for a dish in a menu",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let dish = Cook.checkMenu()\nassert.oneOf(dish, Cook.dishes)",
+              "err": {},
+              "uuid": "a5490062-0102-42cd-b526-de66e56e8d72",
+              "parentUUID": "cc90c002-bd56-4eb3-b5b5-5cad3d8cb88e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "make sure the Cook can feed more",
+              "fullTitle": "Chef test make sure the Cook can feed more",
+              "timedOut": false,
+              "duration": 6,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "for (var i = 0; i < 6; i++){\n    Cook.customersFed()\n    assert.isAtLeast(Cook.customers, 0)\n}",
+              "err": {},
+              "uuid": "4012e174-ea5f-43b7-88d5-d9af132ee3b1",
+              "parentUUID": "cc90c002-bd56-4eb3-b5b5-5cad3d8cb88e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f2d1d0da-1800-4115-ac89-c789825de858",
+            "a5490062-0102-42cd-b526-de66e56e8d72",
+            "4012e174-ea5f-43b7-88d5-d9af132ee3b1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "30b8c573-d8c1-4653-b242-e95483577ccd",
+          "title": "Index",
+          "fullFile": "C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_13\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should return -1 when the value is not present",
+              "fullTitle": "Index should return -1 when the value is not present",
+              "timedOut": false,
+              "duration": 5,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let array = [1,2,3]\nconsole.log('checking if 4 exists in ', array)\nassert.equal(array.indexOf(4), -1)",
+              "err": {},
+              "uuid": "3dee757a-adc8-4e1b-979a-dbc0eefb727e",
+              "parentUUID": "30b8c573-d8c1-4653-b242-e95483577ccd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3dee757a-adc8-4e1b-979a-dbc0eefb727e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "55d9f852-ee52-488d-b613-d3943afa0ab7",
+          "title": "Check calculator",
+          "fullFile": "C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_13\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "check if it adds values",
+              "fullTitle": "Check calculator check if it adds values",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(calc.add(4, 5), 9)",
+              "err": {},
+              "uuid": "b767ea30-9d62-4bf7-8458-09b515c4a5e1",
+              "parentUUID": "55d9f852-ee52-488d-b613-d3943afa0ab7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "check if it multiplies values",
+              "fullTitle": "Check calculator check if it multiplies values",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(calc.multipliy(2, 9), 18)",
+              "err": {},
+              "uuid": "861866b8-6690-4ac2-a491-0cb3e7217718",
+              "parentUUID": "55d9f852-ee52-488d-b613-d3943afa0ab7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b767ea30-9d62-4bf7-8458-09b515c4a5e1",
+            "861866b8-6690-4ac2-a491-0cb3e7217718"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.1.0"
+    }
+  }
+}

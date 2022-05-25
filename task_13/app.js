@@ -22,8 +22,8 @@ Cook.customersFed = function() {
     }
     return this.customers
 }
-class Calculator {
 
+class Calculator {
     add (num1, num2) {
         return num1 + num2
     }
