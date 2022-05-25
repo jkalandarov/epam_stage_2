@@ -1,0 +1,151 @@
+{
+  "uid" : "9f76232f732c91c5",
+  "name" : "Create a New Paste",
+  "fullName" : "I Can Win.Create a New Paste",
+  "historyId" : "b01df0804b048467fe8d0d39b4ec22ff",
+  "time" : {
+    "start" : 1647160068269,
+    "stop" : 1647160068442,
+    "duration" : 173
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160068270,
+        "stop" : 1647160068290,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f85a698610bf6dcd",
+        "name" : "Request",
+        "source" : "f85a698610bf6dcd.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "fc3f726eb379d963",
+        "name" : "Response",
+        "source" : "fc3f726eb379d963.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/641f2137-d2a5-4912-94dc-d006d6c295a8/clear",
+      "time" : {
+        "start" : 1647160068298,
+        "stop" : 1647160068324,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/641f2137-d2a5-4912-94dc-d006d6c295a8/value",
+      "time" : {
+        "start" : 1647160068327,
+        "stop" : 1647160068442,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42c87ccbd5f7bf99",
+        "name" : "Request",
+        "source" : "42c87ccbd5f7bf99.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create a New Paste"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b2184468ba60b375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159966768,
+        "stop" : 1647160022580,
+        "duration" : 55812
+      }
+    }, {
+      "uid" : "824079d880db432",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159833426,
+        "stop" : 1647159852463,
+        "duration" : 19037
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f76232f732c91c5.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

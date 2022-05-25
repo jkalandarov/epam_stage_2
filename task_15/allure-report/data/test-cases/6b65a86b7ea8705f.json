@@ -1,0 +1,151 @@
+{
+  "uid" : "6b65a86b7ea8705f",
+  "name" : "Paste Title: helloweb",
+  "fullName" : "I Can Win.Paste Title: helloweb",
+  "historyId" : "353a72dc616e49df683bab2ce5396863",
+  "time" : {
+    "start" : 1647160068775,
+    "stop" : 1647160068972,
+    "duration" : 197
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160068776,
+        "stop" : 1647160068796,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77956023096acb93",
+        "name" : "Request",
+        "source" : "77956023096acb93.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "840f842cc218c9a5",
+        "name" : "Response",
+        "source" : "840f842cc218c9a5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/283db232-0d3b-42c3-8c88-d1e803dc30dc/clear",
+      "time" : {
+        "start" : 1647160068801,
+        "stop" : 1647160068871,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/283db232-0d3b-42c3-8c88-d1e803dc30dc/value",
+      "time" : {
+        "start" : 1647160068871,
+        "stop" : 1647160068972,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd8824c7d01424df",
+        "name" : "Request",
+        "source" : "fd8824c7d01424df.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Paste Title: helloweb"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5be1348ce5a75520",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647160022806,
+        "stop" : 1647160023025,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "6cd492b11a3b3f03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159853792,
+        "stop" : 1647159853942,
+        "duration" : 150
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b65a86b7ea8705f.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

@@ -1,0 +1,132 @@
+{
+  "uid" : "7a67f3f991bffff7",
+  "name" : "Press 'Create New Paste' button",
+  "fullName" : "I Can Win.Press 'Create New Paste' button",
+  "historyId" : "b60dbf74f11d3b55949953d41c0a559e",
+  "time" : {
+    "start" : 1647160068972,
+    "stop" : 1647160069037,
+    "duration" : 65
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160068973,
+        "stop" : 1647160068989,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a13011fc84f0eca3",
+        "name" : "Request",
+        "source" : "a13011fc84f0eca3.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "e7c48086c2a2fffe",
+        "name" : "Response",
+        "source" : "e7c48086c2a2fffe.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/aaf77837-b077-4f13-b13c-db355b318ce8/click",
+      "time" : {
+        "start" : 1647160068992,
+        "stop" : 1647160069037,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Press 'Create New Paste' button"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cad596072cf30554",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button type=\"submit\" class=\"btn -big\">...</button> is not clickable at point (237, 840). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://73aaf26dda35eb68e631022a906e4ea1.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html\" id=\"google_ads_iframe_/22653346938/12825_Pastebin.com/12825_Pastebin.com_SmartBanner_1_4\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"728\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"f\" style=\"border: 0px; vertical-align: bottom;\" data-load-complete=\"true\"></iframe>\n                  (Session info: chrome=99.0.4844.51)",
+      "time" : {
+        "start" : 1647160023025,
+        "stop" : 1647160027477,
+        "duration" : 4452
+      }
+    }, {
+      "uid" : "d6289df0af9a95aa",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button type=\"submit\" class=\"btn -big\">...</button> is not clickable at point (237, 840). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://d4d28e0193604d0ccbacf9f20817ccf1.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html\" id=\"google_ads_iframe_/22653346938/12825_Pastebin.com/12825_Pastebin.com_SmartBanner_1_4\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"970\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"a\" style=\"border: 0px; vertical-align: bottom;\" data-load-complete=\"true\"></iframe>\n                  (Session info: chrome=99.0.4844.51)",
+      "time" : {
+        "start" : 1647159853942,
+        "stop" : 1647159858250,
+        "duration" : 4308
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a67f3f991bffff7.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

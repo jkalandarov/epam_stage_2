@@ -1,0 +1,163 @@
+{
+  "uid" : "c4e9690154060c37",
+  "name" : "Syntax is suspended for bash",
+  "fullName" : "Bring It On.Syntax is suspended for bash",
+  "historyId" : "8a12420e2518a3a4ed79c2169f2986bd",
+  "time" : {
+    "start" : 1647160048133,
+    "stop" : 1647160049882,
+    "duration" : 1749
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160048134,
+        "stop" : 1647160048208,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37569a443cd64d75",
+        "name" : "Request",
+        "source" : "37569a443cd64d75.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "d1ebf2377795eb9a",
+        "name" : "Response",
+        "source" : "d1ebf2377795eb9a.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647160048599,
+        "stop" : 1647160049873,
+        "duration" : 1274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a11486a2d57e508d",
+        "name" : "Request",
+        "source" : "a11486a2d57e508d.json",
+        "type" : "application/json",
+        "size" : 79
+      }, {
+        "uid" : "24cd6a3fd745070c",
+        "name" : "Response",
+        "source" : "24cd6a3fd745070c.json",
+        "type" : "application/json",
+        "size" : 1011
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647160049882,
+        "stop" : 0,
+        "duration" : -1647160049882
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96fd418dc26b7cfb",
+        "name" : "Request",
+        "source" : "96fd418dc26b7cfb.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Syntax is suspended for bash"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7ae76471359f230b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159893643,
+        "stop" : 1647159893701,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "4f53aa34c711d43c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159759523,
+        "stop" : 1647159759568,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4e9690154060c37.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

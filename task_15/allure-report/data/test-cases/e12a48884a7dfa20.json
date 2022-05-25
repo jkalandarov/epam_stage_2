@@ -1,0 +1,172 @@
+{
+  "uid" : "e12a48884a7dfa20",
+  "name" : "Paste Expiration: 10 Minutes",
+  "fullName" : "Bring It On.Paste Expiration: 10 Minutes",
+  "historyId" : "38409e7752c13ebdb1348a928358b466",
+  "time" : {
+    "start" : 1647160047170,
+    "stop" : 1647160047325,
+    "duration" : 155
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160047171,
+        "stop" : 1647160047190,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffdcde1c155f473c",
+        "name" : "Request",
+        "source" : "ffdcde1c155f473c.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "47ea2f22025cae32",
+        "name" : "Response",
+        "source" : "47ea2f22025cae32.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/b4aa1742-4637-4458-9df5-1a416d4e1694/click",
+      "time" : {
+        "start" : 1647160047193,
+        "stop" : 1647160047257,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647160047258,
+        "stop" : 1647160047279,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee7e64412c57b401",
+        "name" : "Request",
+        "source" : "ee7e64412c57b401.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "a875436cd830e53f",
+        "name" : "Response",
+        "source" : "a875436cd830e53f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/483e5780-1a80-4995-8c47-7a349151621b/click",
+      "time" : {
+        "start" : 1647160047282,
+        "stop" : 1647160047325,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testClass",
+    "value" : "Bring It On"
+  }, {
+    "name" : "testMethod",
+    "value" : "Paste Expiration: 10 Minutes"
+  }, {
+    "name" : "package",
+    "value" : "Bring It On"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d95ebd785f81aeb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159887472,
+        "stop" : 1647159887678,
+        "duration" : 206
+      }
+    }, {
+      "uid" : "7760cbfb01494aa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647159757923,
+        "stop" : 1647159758299,
+        "duration" : 376
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e12a48884a7dfa20.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

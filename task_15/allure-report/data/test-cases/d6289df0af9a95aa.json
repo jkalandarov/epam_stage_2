@@ -1,0 +1,117 @@
+{
+  "uid" : "d6289df0af9a95aa",
+  "name" : "Press 'Create New Paste' button",
+  "fullName" : "I Can Win.Press 'Create New Paste' button",
+  "historyId" : "b60dbf74f11d3b55949953d41c0a559e",
+  "time" : {
+    "start" : 1647159853942,
+    "stop" : 1647159858250,
+    "duration" : 4308
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button type=\"submit\" class=\"btn -big\">...</button> is not clickable at point (237, 840). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://d4d28e0193604d0ccbacf9f20817ccf1.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html\" id=\"google_ads_iframe_/22653346938/12825_Pastebin.com/12825_Pastebin.com_SmartBanner_1_4\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"970\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"a\" style=\"border: 0px; vertical-align: bottom;\" data-load-complete=\"true\"></iframe>\n                  (Session info: chrome=99.0.4844.51)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00379943+2595139]\n                \tOrdinal0 [0x0030C9F1+2148849]\n                \tOrdinal0 [0x00204528+1066280]\n                \tOrdinal0 [0x00237621+1275425]\n                \tOrdinal0 [0x00235657+1267287]\n                \tOrdinal0 [0x0023333B+1258299]\n                \tOrdinal0 [0x0023207D+1253501]\n                \tOrdinal0 [0x00227AB3+1211059]\n                \tOrdinal0 [0x0024B9EC+1358316]\n                \tOrdinal0 [0x00227474+1209460]\n                \tOrdinal0 [0x0024BC04+1358852]\n                \tOrdinal0 [0x0025BAF2+1424114]\n                \tOrdinal0 [0x0024B806+1357830]\n                \tOrdinal0 [0x00226086+1204358]\n                \tOrdinal0 [0x00226F96+1208214]\n                \tGetHandleVerifier [0x0051B232+1658114]\n                \tGetHandleVerifier [0x005D312C+2411516]\n                \tGetHandleVerifier [0x0040F261+560433]\n                \tGetHandleVerifier [0x0040E366+556598]\n                \tOrdinal0 [0x0031286B+2173035]\n                \tOrdinal0 [0x003175F8+2192888]\n                \tOrdinal0 [0x003176E5+2193125]\n                \tOrdinal0 [0x003211FC+2232828]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <button type=\"submit\" class=\"btn -big\">...</button> is not clickable at point (237, 840). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://d4d28e0193604d0ccbacf9f20817ccf1.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html\" id=\"google_ads_iframe_/22653346938/12825_Pastebin.com/12825_Pastebin.com_SmartBanner_1_4\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"970\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"a\" style=\"border: 0px; vertical-align: bottom;\" data-load-complete=\"true\"></iframe>\n                  (Session info: chrome=99.0.4844.51)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00379943+2595139]\n                \tOrdinal0 [0x0030C9F1+2148849]\n                \tOrdinal0 [0x00204528+1066280]\n                \tOrdinal0 [0x00237621+1275425]\n                \tOrdinal0 [0x00235657+1267287]\n                \tOrdinal0 [0x0023333B+1258299]\n                \tOrdinal0 [0x0023207D+1253501]\n                \tOrdinal0 [0x00227AB3+1211059]\n                \tOrdinal0 [0x0024B9EC+1358316]\n                \tOrdinal0 [0x00227474+1209460]\n                \tOrdinal0 [0x0024BC04+1358852]\n                \tOrdinal0 [0x0025BAF2+1424114]\n                \tOrdinal0 [0x0024B806+1357830]\n                \tOrdinal0 [0x00226086+1204358]\n                \tOrdinal0 [0x00226F96+1208214]\n                \tGetHandleVerifier [0x0051B232+1658114]\n                \tGetHandleVerifier [0x005D312C+2411516]\n                \tGetHandleVerifier [0x0040F261+560433]\n                \tGetHandleVerifier [0x0040E366+556598]\n                \tOrdinal0 [0x0031286B+2173035]\n                \tOrdinal0 [0x003175F8+2192888]\n                \tOrdinal0 [0x003176E5+2193125]\n                \tOrdinal0 [0x003211FC+2232828]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647159853943,
+        "stop" : 1647159853961,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c97680b84dd8271",
+        "name" : "Request",
+        "source" : "7c97680b84dd8271.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "787887dcdb0c8c1d",
+        "name" : "Response",
+        "source" : "787887dcdb0c8c1d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/c2f5cb1d-9985-4b83-91c2-632252708944/click",
+      "time" : {
+        "start" : 1647159853966,
+        "stop" : 1647159858250,
+        "duration" : 4284
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x00379943+2595139]\n                \tOrdinal0 [0x0030C9F1+2148849]\n                \tOrdinal0 [0x00204528+1066280]\n                \tOrdinal0 [0x00237621+1275425]\n                \tOrdinal0 [0x00235657+1267287]\n                \tOrdinal0 [0x0023333B+1258299]\n                \tOrdinal0 [0x0023207D+1253501]\n                \tOrdinal0 [0x00227AB3+1211059]\n                \tOrdinal0 [0x0024B9EC+1358316]\n                \tOrdinal0 [0x00227474+1209460]\n                \tOrdinal0 [0x0024BC04+1358852]\n                \tOrdinal0 [0x0025BAF2+1424114]\n                \tOrdinal0 [0x0024B806+1357830]\n                \tOrdinal0 [0x00226086+1204358]\n                \tOrdinal0 [0x00226F96+1208214]\n                \tGetHandleVerifier [0x0051B232+1658114]\n                \tGetHandleVerifier [0x005D312C+2411516]\n                \tGetHandleVerifier [0x0040F261+560433]\n                \tGetHandleVerifier [0x0040E366+556598]\n                \tOrdinal0 [0x0031286B+2173035]\n                \tOrdinal0 [0x003175F8+2192888]\n                \tOrdinal0 [0x003176E5+2193125]\n                \tOrdinal0 [0x003211FC+2232828]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testClass",
+    "value" : "I Can Win"
+  }, {
+    "name" : "testMethod",
+    "value" : "Press 'Create New Paste' button"
+  }, {
+    "name" : "package",
+    "value" : "I Can Win"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6289df0af9a95aa.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

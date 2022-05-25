@@ -1,0 +1,181 @@
+[ {
+  "uid" : "831707cc343e502c",
+  "name" : "Check that the code matches the one entered in paragraph 2",
+  "time" : {
+    "start" : 1647160049885,
+    "stop" : 1647160049889,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8f8125061bfb8ab",
+  "name" : "Open pastebin page",
+  "time" : {
+    "start" : 1647160040866,
+    "stop" : 1647160046350,
+    "duration" : 5484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e12a48884a7dfa20",
+  "name" : "Paste Expiration: 10 Minutes",
+  "time" : {
+    "start" : 1647160047170,
+    "stop" : 1647160047325,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e9690154060c37",
+  "name" : "Syntax is suspended for bash",
+  "time" : {
+    "start" : 1647160048133,
+    "stop" : 1647160049882,
+    "duration" : 1749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "519119a411840162",
+  "name" : "Should have expiration time",
+  "time" : {
+    "start" : 1647160069122,
+    "stop" : 1647160069126,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba96199ad2edf08f",
+  "name" : "Paste Title: how to gain dominance among developers",
+  "time" : {
+    "start" : 1647160047325,
+    "stop" : 1647160047884,
+    "duration" : 559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "844c2ac4cdf963a9",
+  "name" : "Press 'Create New Paste' button",
+  "time" : {
+    "start" : 1647160047884,
+    "stop" : 1647160048017,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d61d1fc1e96b633",
+  "name" : "Should have paste text inserted",
+  "time" : {
+    "start" : 1647160069127,
+    "stop" : 1647160069131,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce59ae9442e4c363",
+  "name" : "Paste Expiration: 10 Minutes",
+  "time" : {
+    "start" : 1647160068442,
+    "stop" : 1647160068775,
+    "duration" : 333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca65364f8ea27877",
+  "name" : "Should have page title",
+  "time" : {
+    "start" : 1647160069038,
+    "stop" : 1647160069117,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8f4399433d82a36",
+  "name" : "Set syntax highlighting",
+  "time" : {
+    "start" : 1647160046911,
+    "stop" : 1647160047170,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a67f3f991bffff7",
+  "name" : "Press 'Create New Paste' button",
+  "time" : {
+    "start" : 1647160068972,
+    "stop" : 1647160069037,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b65a86b7ea8705f",
+  "name" : "Paste Title: helloweb",
+  "time" : {
+    "start" : 1647160068775,
+    "stop" : 1647160068972,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b37fcc58cb1a9720",
+  "name" : "Create a New Paste",
+  "time" : {
+    "start" : 1647160046350,
+    "stop" : 1647160046911,
+    "duration" : 561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acd9530feff81f8a",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1647160052759,
+    "stop" : 1647160059541,
+    "duration" : 6782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f76232f732c91c5",
+  "name" : "Create a New Paste",
+  "time" : {
+    "start" : 1647160068269,
+    "stop" : 1647160068442,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23072df01cadb255",
+  "name" : "Open pastebin page",
+  "time" : {
+    "start" : 1647160062125,
+    "stop" : 1647160068269,
+    "duration" : 6144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f529e46d54ad27",
+  "name" : "Should have page title",
+  "time" : {
+    "start" : 1647160048017,
+    "stop" : 1647160048088,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
