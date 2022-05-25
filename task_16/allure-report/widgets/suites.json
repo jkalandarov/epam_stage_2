@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "37f1edd82e1abb0eff867007687c6524",
+    "name" : "Hard core",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 18
+    }
+  } ]
+}

@@ -1,0 +1,311 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Open Google Cloud Homepage",
+    "uid" : "6c03b5ebcf788928",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177902742,
+      "stop" : 1647177912219,
+      "duration" : 9477
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Find and click on search button",
+    "uid" : "7debb639cd5f6650",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177912219,
+      "stop" : 1647177912359,
+      "duration" : 140
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Enter search query",
+    "uid" : "b64a527bee57f29c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177912359,
+      "stop" : 1647177912712,
+      "duration" : 353
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Click on the necessary result",
+    "uid" : "b3ff14202b76dde4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177912713,
+      "stop" : 1647177924969,
+      "duration" : 12256
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Activate necessary section",
+    "uid" : "fdabc3d1c90f42d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177924970,
+      "stop" : 1647177925286,
+      "duration" : 316
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Choose the number instances",
+    "uid" : "e3e908697bae80c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177925286,
+      "stop" : 1647177925446,
+      "duration" : 160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Select machine type",
+    "uid" : "babb1667631ebe2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177925447,
+      "stop" : 1647177926046,
+      "duration" : 599
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Add GPUs",
+    "uid" : "ea4f55aefcf96c68",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1647177926046,
+      "stop" : 1647177926046,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Choose datacenter location",
+    "uid" : "286c98094170bfed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177926046,
+      "stop" : 1647177927175,
+      "duration" : 1129
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Add to Estimate",
+    "uid" : "cc5f966a779b00e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177927175,
+      "stop" : 1647177927762,
+      "duration" : 587
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Should choose SSD input",
+    "uid" : "8cb5bea662918fe0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1647177927175,
+      "stop" : 1647177927175,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should have Frankfurt chosen",
+    "uid" : "59e0c6bd99357bcb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177927763,
+      "stop" : 1647177927807,
+      "duration" : 44
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Should have commitment: 1 year",
+    "uid" : "75b6835b885a0214",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177927809,
+      "stop" : 1647177927851,
+      "duration" : 42
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Should have Instance type selected",
+    "uid" : "716ff95ba94f15e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177927856,
+      "stop" : 1647177927906,
+      "duration" : 50
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Email Estimate",
+    "uid" : "6ec9d8e20047a2ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177927908,
+      "stop" : 1647177928150,
+      "duration" : 242
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Open temporary email service",
+    "uid" : "230e51b35530d1b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177928151,
+      "stop" : 1647177954918,
+      "duration" : 26767
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Open email form",
+    "uid" : "1fd15261dc2c8f5b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177954918,
+      "stop" : 1647177955325,
+      "duration" : 407
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "Send Email",
+    "uid" : "b24318b9a0ebb795",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647177955326,
+      "stop" : 1647177955502,
+      "duration" : 176
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  } ]
+}

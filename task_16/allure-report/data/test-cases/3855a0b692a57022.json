@@ -1,0 +1,159 @@
+{
+  "uid" : "3855a0b692a57022",
+  "name" : "Activate necessary section",
+  "fullName" : "Hard core.Activate necessary section",
+  "historyId" : "c5e15595c26f5df47f8a8a453c05ebf9",
+  "time" : {
+    "start" : 1647170723870,
+    "stop" : 1647170724092,
+    "duration" : 222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such frame\n                  (Session info: chrome=99.0.4844.51)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x004B7AC3+2587331]\n                \tOrdinal0 [0x0044ADD1+2141649]\n                \tOrdinal0 [0x00343A80+1063552]\n                \tOrdinal0 [0x00346E50+1076816]\n                \tOrdinal0 [0x00399C09+1416201]\n                \tOrdinal0 [0x0038868C+1345164]\n                \tOrdinal0 [0x00398A0A+1411594]\n                \tOrdinal0 [0x003884A6+1344678]\n                \tOrdinal0 [0x003653F6+1201142]\n                \tOrdinal0 [0x003662E6+1204966]\n                \tGetHandleVerifier [0x0065DF22+1680738]\n                \tGetHandleVerifier [0x00710DBC+2413564]\n                \tGetHandleVerifier [0x0054D151+563089]\n                \tGetHandleVerifier [0x0054BF13+558419]\n                \tOrdinal0 [0x0045081E+2164766]\n                \tOrdinal0 [0x00455508+2184456]\n                \tOrdinal0 [0x00455650+2184784]\n                \tOrdinal0 [0x0045F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such frame\n                  (Session info: chrome=99.0.4844.51)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x004B7AC3+2587331]\n                \tOrdinal0 [0x0044ADD1+2141649]\n                \tOrdinal0 [0x00343A80+1063552]\n                \tOrdinal0 [0x00346E50+1076816]\n                \tOrdinal0 [0x00399C09+1416201]\n                \tOrdinal0 [0x0038868C+1345164]\n                \tOrdinal0 [0x00398A0A+1411594]\n                \tOrdinal0 [0x003884A6+1344678]\n                \tOrdinal0 [0x003653F6+1201142]\n                \tOrdinal0 [0x003662E6+1204966]\n                \tGetHandleVerifier [0x0065DF22+1680738]\n                \tGetHandleVerifier [0x00710DBC+2413564]\n                \tGetHandleVerifier [0x0054D151+563089]\n                \tGetHandleVerifier [0x0054BF13+558419]\n                \tOrdinal0 [0x0045081E+2164766]\n                \tOrdinal0 [0x00455508+2184456]\n                \tOrdinal0 [0x00455650+2184784]\n                \tOrdinal0 [0x0045F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/timeouts",
+      "time" : {
+        "start" : 1647170723871,
+        "stop" : 1647170723889,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "341b344dd796029e",
+        "name" : "Request",
+        "source" : "341b344dd796029e.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1647170723889,
+        "stop" : 1647170723907,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86b77fedf08f34bb",
+        "name" : "Request",
+        "source" : "86b77fedf08f34bb.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1647170723907,
+        "stop" : 1647170724092,
+        "duration" : 185
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x004B7AC3+2587331]\n                \tOrdinal0 [0x0044ADD1+2141649]\n                \tOrdinal0 [0x00343A80+1063552]\n                \tOrdinal0 [0x00346E50+1076816]\n                \tOrdinal0 [0x00399C09+1416201]\n                \tOrdinal0 [0x0038868C+1345164]\n                \tOrdinal0 [0x00398A0A+1411594]\n                \tOrdinal0 [0x003884A6+1344678]\n                \tOrdinal0 [0x003653F6+1201142]\n                \tOrdinal0 [0x003662E6+1204966]\n                \tGetHandleVerifier [0x0065DF22+1680738]\n                \tGetHandleVerifier [0x00710DBC+2413564]\n                \tGetHandleVerifier [0x0054D151+563089]\n                \tGetHandleVerifier [0x0054BF13+558419]\n                \tOrdinal0 [0x0045081E+2164766]\n                \tOrdinal0 [0x00455508+2184456]\n                \tOrdinal0 [0x00455650+2184784]\n                \tOrdinal0 [0x0045F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647170723943,
+          "stop" : 1647170724092,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "16842c78ccc0fc10",
+          "name" : "Screenshot",
+          "source" : "16842c78ccc0fc10.png",
+          "type" : "image/png",
+          "size" : 122168
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "fec4ddf9273cb0b4",
+        "name" : "Request",
+        "source" : "fec4ddf9273cb0b4.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Activate necessary section"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3855a0b692a57022.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

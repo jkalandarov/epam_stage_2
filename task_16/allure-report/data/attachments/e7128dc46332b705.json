@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class, \"md-list-item-text ng-binding\") and contains(., \"1 Year\")]"
+}

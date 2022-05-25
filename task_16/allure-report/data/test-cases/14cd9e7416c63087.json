@@ -1,0 +1,180 @@
+{
+  "uid" : "14cd9e7416c63087",
+  "name" : "Choose datacenter location",
+  "fullName" : "Hard core.Choose datacenter location",
+  "historyId" : "700cc4cccf6ac336eba7e3450185b03a",
+  "time" : {
+    "start" : 1647167781570,
+    "stop" : 1647167782448,
+    "duration" : 878
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //div*=\"Frankfurt\" because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div*=\"Frankfurt\"' is not a valid XPath expression.\n                  (Session info: chrome=99.0.4844.51)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x006F7AC3+2587331]\n                \tOrdinal0 [0x0068ADD1+2141649]\n                \tOrdinal0 [0x00583BB8+1063864]\n                \tOrdinal0 [0x005863D7+1074135]\n                \tOrdinal0 [0x0058629E+1073822]\n                \tOrdinal0 [0x00586510+1074448]\n                \tOrdinal0 [0x005AFF42+1244994]\n                \tOrdinal0 [0x005B03CB+1246155]\n                \tOrdinal0 [0x005DA612+1418770]\n                \tOrdinal0 [0x005C86D4+1345236]\n                \tOrdinal0 [0x005D8A0A+1411594]\n                \tOrdinal0 [0x005C84A6+1344678]\n                \tOrdinal0 [0x005A53F6+1201142]\n                \tOrdinal0 [0x005A62E6+1204966]\n                \tGetHandleVerifier [0x0089DF22+1680738]\n                \tGetHandleVerifier [0x00950DBC+2413564]\n                \tGetHandleVerifier [0x0078D151+563089]\n                \tGetHandleVerifier [0x0078BF13+558419]\n                \tOrdinal0 [0x0069081E+2164766]\n                \tOrdinal0 [0x00695508+2184456]\n                \tOrdinal0 [0x00695650+2184784]\n                \tOrdinal0 [0x0069F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //div*=\"Frankfurt\" because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div*=\"Frankfurt\"' is not a valid XPath expression.\n                  (Session info: chrome=99.0.4844.51)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x006F7AC3+2587331]\n                \tOrdinal0 [0x0068ADD1+2141649]\n                \tOrdinal0 [0x00583BB8+1063864]\n                \tOrdinal0 [0x005863D7+1074135]\n                \tOrdinal0 [0x0058629E+1073822]\n                \tOrdinal0 [0x00586510+1074448]\n                \tOrdinal0 [0x005AFF42+1244994]\n                \tOrdinal0 [0x005B03CB+1246155]\n                \tOrdinal0 [0x005DA612+1418770]\n                \tOrdinal0 [0x005C86D4+1345236]\n                \tOrdinal0 [0x005D8A0A+1411594]\n                \tOrdinal0 [0x005C84A6+1344678]\n                \tOrdinal0 [0x005A53F6+1201142]\n                \tOrdinal0 [0x005A62E6+1204966]\n                \tGetHandleVerifier [0x0089DF22+1680738]\n                \tGetHandleVerifier [0x00950DBC+2413564]\n                \tGetHandleVerifier [0x0078D151+563089]\n                \tGetHandleVerifier [0x0078BF13+558419]\n                \tOrdinal0 [0x0069081E+2164766]\n                \tOrdinal0 [0x00695508+2184456]\n                \tOrdinal0 [0x00695650+2184784]\n                \tOrdinal0 [0x0069F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647167781570,
+        "stop" : 1647167781676,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93d0a60da9d8d711",
+        "name" : "Request",
+        "source" : "93d0a60da9d8d711.json",
+        "type" : "application/json",
+        "size" : 102
+      }, {
+        "uid" : "8d5cd7217fb46b88",
+        "name" : "Response",
+        "source" : "8d5cd7217fb46b88.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/d91ae125-8ded-4734-8625-25d87716bc78/click",
+      "time" : {
+        "start" : 1647167781683,
+        "stop" : 1647167781790,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1647167781790,
+        "stop" : 1647167781817,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0fd98e03b7b13ff",
+        "name" : "Request",
+        "source" : "a0fd98e03b7b13ff.json",
+        "type" : "application/json",
+        "size" : 384
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647167781818,
+        "stop" : 1647167782448,
+        "duration" : 630
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x006F7AC3+2587331]\n                \tOrdinal0 [0x0068ADD1+2141649]\n                \tOrdinal0 [0x00583BB8+1063864]\n                \tOrdinal0 [0x005863D7+1074135]\n                \tOrdinal0 [0x0058629E+1073822]\n                \tOrdinal0 [0x00586510+1074448]\n                \tOrdinal0 [0x005AFF42+1244994]\n                \tOrdinal0 [0x005B03CB+1246155]\n                \tOrdinal0 [0x005DA612+1418770]\n                \tOrdinal0 [0x005C86D4+1345236]\n                \tOrdinal0 [0x005D8A0A+1411594]\n                \tOrdinal0 [0x005C84A6+1344678]\n                \tOrdinal0 [0x005A53F6+1201142]\n                \tOrdinal0 [0x005A62E6+1204966]\n                \tGetHandleVerifier [0x0089DF22+1680738]\n                \tGetHandleVerifier [0x00950DBC+2413564]\n                \tGetHandleVerifier [0x0078D151+563089]\n                \tGetHandleVerifier [0x0078BF13+558419]\n                \tOrdinal0 [0x0069081E+2164766]\n                \tOrdinal0 [0x00695508+2184456]\n                \tOrdinal0 [0x00695650+2184784]\n                \tOrdinal0 [0x0069F5BC+2225596]\n                \tBaseThreadInitThunk [0x75846739+25]\n                \tRtlGetFullPathName_UEx [0x77228E7F+1215]\n                \tRtlGetFullPathName_UEx [0x77228E4D+1165]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1647167781943,
+          "stop" : 1647167782446,
+          "duration" : 503
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8220a695a6fe773a",
+          "name" : "Screenshot",
+          "source" : "8220a695a6fe773a.png",
+          "type" : "image/png",
+          "size" : 91464
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "3706af69b56921b6",
+        "name" : "Request",
+        "source" : "3706af69b56921b6.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Choose datacenter location"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14cd9e7416c63087.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

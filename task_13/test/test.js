@@ -2,7 +2,6 @@ const assert = require('chai').assert
 const {Cook, Calculator} = require('../app')
 
 describe('Chef test', ()=>{
-    
     it('check if the dish has a valid name', ()=>{
         assert.isString(Cook.checkMenu(), 'string')
     })

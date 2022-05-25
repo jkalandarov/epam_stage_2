@@ -1,0 +1,319 @@
+{
+  "uid" : "cc5f966a779b00e5",
+  "name" : "Add to Estimate",
+  "fullName" : "Hard core.Add to Estimate",
+  "historyId" : "b93da839455ce3f8141dcc9d2408990e",
+  "time" : {
+    "start" : 1647177927175,
+    "stop" : 1647177927762,
+    "duration" : 587
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647177927176,
+        "stop" : 1647177927213,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9d4e0c16847ca8a",
+        "name" : "Request",
+        "source" : "e9d4e0c16847ca8a.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "9a3ace77eb20e6f7",
+        "name" : "Response",
+        "source" : "9a3ace77eb20e6f7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647177927217,
+        "stop" : 1647177927247,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "715b1fbb7340e4af",
+        "name" : "Request",
+        "source" : "715b1fbb7340e4af.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "fdbdc60edaa52a73",
+        "name" : "Response",
+        "source" : "fdbdc60edaa52a73.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1647177927251,
+        "stop" : 1647177927268,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac8ef5b69665b6c6",
+        "name" : "Request",
+        "source" : "ac8ef5b69665b6c6.json",
+        "type" : "application/json",
+        "size" : 384
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/418d0320-2bf8-4308-a601-68f27581f2c5/click",
+      "time" : {
+        "start" : 1647177927268,
+        "stop" : 1647177927502,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1647177927503,
+        "stop" : 1647177927761,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cfe3593e53fbe3d4",
+        "name" : "Screenshot",
+        "source" : "cfe3593e53fbe3d4.png",
+        "type" : "image/png",
+        "size" : 108517
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add to Estimate"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29758877efabb8da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647177173164,
+        "stop" : 1647177177371,
+        "duration" : 4207
+      }
+    }, {
+      "uid" : "7bb65e5e7c4fd264",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647176986723,
+        "stop" : 1647176989825,
+        "duration" : 3102
+      }
+    }, {
+      "uid" : "2eeb38e34efd2140",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647176527649,
+        "stop" : 1647176533845,
+        "duration" : 6196
+      }
+    }, {
+      "uid" : "68f7f29d793035a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647175688242,
+        "stop" : 1647175691823,
+        "duration" : 3581
+      }
+    }, {
+      "uid" : "9e4b74a67b4054cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647175484514,
+        "stop" : 1647175487044,
+        "duration" : 2530
+      }
+    }, {
+      "uid" : "b0fa5459c52e1297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647175213402,
+        "stop" : 1647175218134,
+        "duration" : 4732
+      }
+    }, {
+      "uid" : "1a028a20babfcfa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647173247679,
+        "stop" : 1647173248145,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "98c737c09dd109d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647171423090,
+        "stop" : 1647171428800,
+        "duration" : 5710
+      }
+    }, {
+      "uid" : "3c9d9582f46f987f",
+      "status" : "broken",
+      "statusDetails" : "directory (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\task_16) doesn't exist",
+      "time" : {
+        "start" : 1647171274812,
+        "stop" : 1647171280103,
+        "duration" : 5291
+      }
+    }, {
+      "uid" : "e010493ce18d0243",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"md-raised md-primary cpc-button md-button md-ink-ripple\" type=\"button\" ng-transclude=\"\" ng-disabled=\"ComputeEngineForm.$invalid || !listingCtrl.machineType['computeServer']\" ng-click=\"listingCtrl.addComputeServer(ComputeEngineForm);\" aria-label=\"Add to Estimate\">...</button> is not clickable at point (522, 1327). Other element would receive the click: <md-backdrop class=\"md-select-backdrop md-click-catcher ng-scope\" style=\"position: fixed;\"></md-backdrop>\n                  (Session info: chrome=99.0.4844.51)",
+      "time" : {
+        "start" : 1647170855192,
+        "stop" : 1647170859776,
+        "duration" : 4584
+      }
+    }, {
+      "uid" : "d81e9815670dd279",
+      "status" : "broken",
+      "statusDetails" : "element (\"form[name=\"ComputeEngineForm\"] > div > button\") still not existing after 5000ms",
+      "time" : {
+        "start" : 1647170770587,
+        "stop" : 1647170780077,
+        "duration" : 9490
+      }
+    }, {
+      "uid" : "e660d00a623705cf",
+      "status" : "broken",
+      "statusDetails" : "directory (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\task_16) doesn't exist",
+      "time" : {
+        "start" : 1647170644250,
+        "stop" : 1647170646713,
+        "duration" : 2463
+      }
+    }, {
+      "uid" : "e30bb1aa447d3cb5",
+      "status" : "broken",
+      "statusDetails" : "directory (C:\\Users\\jkala\\OneDrive\\Рабочий стол\\EPAM\\epam_stage_2\\task_16\\task_16) doesn't exist",
+      "time" : {
+        "start" : 1647170575394,
+        "stop" : 1647170577995,
+        "duration" : 2601
+      }
+    }, {
+      "uid" : "a334ef4ecb2896d0",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"md-raised md-primary cpc-button md-button md-ink-ripple\" type=\"button\" ng-transclude=\"\" ng-disabled=\"ComputeEngineForm.$invalid || !listingCtrl.machineType['computeServer']\" ng-click=\"listingCtrl.addComputeServer(ComputeEngineForm);\" aria-label=\"Add to Estimate\">...</button> is not clickable at point (629, 1327). Other element would receive the click: <md-backdrop class=\"md-select-backdrop md-click-catcher ng-scope\" style=\"position: fixed;\"></md-backdrop>\n                  (Session info: chrome=99.0.4844.51)",
+      "time" : {
+        "start" : 1647170369080,
+        "stop" : 1647170373629,
+        "duration" : 4549
+      }
+    }, {
+      "uid" : "2b6a1563032f461e",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"md-raised md-primary cpc-button md-button md-ink-ripple\" type=\"button\" ng-transclude=\"\" ng-disabled=\"ComputeEngineForm.$invalid || !listingCtrl.machineType['computeServer']\" ng-click=\"listingCtrl.addComputeServer(ComputeEngineForm);\" aria-label=\"Add to Estimate\">...</button> is not clickable at point (590, 1327). Other element would receive the click: <md-backdrop class=\"md-select-backdrop md-click-catcher ng-scope\" style=\"position: fixed;\"></md-backdrop>\n                  (Session info: chrome=99.0.4844.51)",
+      "time" : {
+        "start" : 1647167892657,
+        "stop" : 1647167897133,
+        "duration" : 4476
+      }
+    }, {
+      "uid" : "272fa94c3276bbb2",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"md-raised md-primary cpc-button md-button md-ink-ripple\" type=\"button\" ng-transclude=\"\" ng-disabled=\"ComputeEngineForm.$invalid || !listingCtrl.machineType['computeServer']\" ng-click=\"listingCtrl.addComputeServer(ComputeEngineForm);\" aria-label=\"Add to Estimate\">...</button> is not clickable at point (603, 1327). Other element would receive the click: <md-backdrop class=\"md-select-backdrop md-click-catcher ng-scope\" style=\"position: fixed;\"></md-backdrop>\n                  (Session info: chrome=99.0.4844.51)",
+      "time" : {
+        "start" : 1647167782448,
+        "stop" : 1647167787300,
+        "duration" : 4852
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc5f966a779b00e5.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

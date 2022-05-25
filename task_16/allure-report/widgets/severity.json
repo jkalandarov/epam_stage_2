@@ -1,0 +1,181 @@
+[ {
+  "uid" : "716ff95ba94f15e",
+  "name" : "Should have Instance type selected",
+  "time" : {
+    "start" : 1647177927856,
+    "stop" : 1647177927906,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b24318b9a0ebb795",
+  "name" : "Send Email",
+  "time" : {
+    "start" : 1647177955326,
+    "stop" : 1647177955502,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b64a527bee57f29c",
+  "name" : "Enter search query",
+  "time" : {
+    "start" : 1647177912359,
+    "stop" : 1647177912712,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ec9d8e20047a2ce",
+  "name" : "Email Estimate",
+  "time" : {
+    "start" : 1647177927908,
+    "stop" : 1647177928150,
+    "duration" : 242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75b6835b885a0214",
+  "name" : "Should have commitment: 1 year",
+  "time" : {
+    "start" : 1647177927809,
+    "stop" : 1647177927851,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdabc3d1c90f42d9",
+  "name" : "Activate necessary section",
+  "time" : {
+    "start" : 1647177924970,
+    "stop" : 1647177925286,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "babb1667631ebe2",
+  "name" : "Select machine type",
+  "time" : {
+    "start" : 1647177925447,
+    "stop" : 1647177926046,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "230e51b35530d1b5",
+  "name" : "Open temporary email service",
+  "time" : {
+    "start" : 1647177928151,
+    "stop" : 1647177954918,
+    "duration" : 26767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c03b5ebcf788928",
+  "name" : "Open Google Cloud Homepage",
+  "time" : {
+    "start" : 1647177902742,
+    "stop" : 1647177912219,
+    "duration" : 9477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3e908697bae80c1",
+  "name" : "Choose the number instances",
+  "time" : {
+    "start" : 1647177925286,
+    "stop" : 1647177925446,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fd15261dc2c8f5b",
+  "name" : "Open email form",
+  "time" : {
+    "start" : 1647177954918,
+    "stop" : 1647177955325,
+    "duration" : 407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea4f55aefcf96c68",
+  "name" : "Add GPUs",
+  "time" : {
+    "start" : 1647177926046,
+    "stop" : 1647177926046,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "59e0c6bd99357bcb",
+  "name" : "Should have Frankfurt chosen",
+  "time" : {
+    "start" : 1647177927763,
+    "stop" : 1647177927807,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc5f966a779b00e5",
+  "name" : "Add to Estimate",
+  "time" : {
+    "start" : 1647177927175,
+    "stop" : 1647177927762,
+    "duration" : 587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3ff14202b76dde4",
+  "name" : "Click on the necessary result",
+  "time" : {
+    "start" : 1647177912713,
+    "stop" : 1647177924969,
+    "duration" : 12256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cb5bea662918fe0",
+  "name" : "Should choose SSD input",
+  "time" : {
+    "start" : 1647177927175,
+    "stop" : 1647177927175,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "286c98094170bfed",
+  "name" : "Choose datacenter location",
+  "time" : {
+    "start" : 1647177926046,
+    "stop" : 1647177927175,
+    "duration" : 1129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7debb639cd5f6650",
+  "name" : "Find and click on search button",
+  "time" : {
+    "start" : 1647177912219,
+    "stop" : 1647177912359,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

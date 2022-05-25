@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "md-tab-item[class=\"md-tab ng-scope ng-isolate-scope md-ink-ripple md-active\"]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "button[ng-click=\"emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()\"]"
+}

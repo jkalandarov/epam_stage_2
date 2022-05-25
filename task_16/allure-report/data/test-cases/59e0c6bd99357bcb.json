@@ -1,0 +1,249 @@
+{
+  "uid" : "59e0c6bd99357bcb",
+  "name" : "Should have Frankfurt chosen",
+  "fullName" : "Hard core.Should have Frankfurt chosen",
+  "historyId" : "e12a119e635116cf012c8bf2cab50ad5",
+  "time" : {
+    "start" : 1647177927763,
+    "stop" : 1647177927807,
+    "duration" : 44
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647177927763,
+        "stop" : 1647177927799,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dba25d1dca313293",
+        "name" : "Request",
+        "source" : "dba25d1dca313293.json",
+        "type" : "application/json",
+        "size" : 133
+      }, {
+        "uid" : "168a9a1c4b070cbe",
+        "name" : "Response",
+        "source" : "168a9a1c4b070cbe.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/e6b79ec9-e804-473e-89f7-6a1cd87143ed/text",
+      "time" : {
+        "start" : 1647177927807,
+        "stop" : 0,
+        "duration" : -1647177927807
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hard core"
+  }, {
+    "name" : "testClass",
+    "value" : "Hard core"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have Frankfurt chosen"
+  }, {
+    "name" : "package",
+    "value" : "Hard core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "38704bba6dba5cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647177177371,
+        "stop" : 1647177177430,
+        "duration" : 59
+      }
+    }, {
+      "uid" : "c0c8a369c8419eaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647176989825,
+        "stop" : 1647176989853,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "5031f452b59c7d92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647176533845,
+        "stop" : 1647176533871,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "5d599d7f8e88f67d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647175691823,
+        "stop" : 1647175691853,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "f13c2c2e6ad96643",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647175487045,
+        "stop" : 1647175487087,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "741b667d608cf092",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647175218134,
+        "stop" : 1647175218164,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "d8739ef412c80618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647173248145,
+        "stop" : 1647173248191,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "9af9af3e9d7cbca2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647171428800,
+        "stop" : 1647171428833,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "ce3e72f0a37195cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647171280104,
+        "stop" : 1647171280150,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "c099b341fdbc3623",
+      "status" : "broken",
+      "statusDetails" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+      "time" : {
+        "start" : 1647170859776,
+        "stop" : 1647170859901,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "6ae7a1f4cc3ed93e",
+      "status" : "broken",
+      "statusDetails" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+      "time" : {
+        "start" : 1647170780078,
+        "stop" : 1647170780205,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "a8d0b9ec202e6392",
+      "status" : "broken",
+      "statusDetails" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+      "time" : {
+        "start" : 1647170646713,
+        "stop" : 1647170648807,
+        "duration" : 2094
+      }
+    }, {
+      "uid" : "f2ea90c1f3da5adc",
+      "status" : "broken",
+      "statusDetails" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+      "time" : {
+        "start" : 1647170577996,
+        "stop" : 1647170578108,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "87f309cdac339cdc",
+      "status" : "broken",
+      "statusDetails" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+      "time" : {
+        "start" : 1647170373630,
+        "stop" : 1647170373783,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "800ad46881d8d384",
+      "status" : "broken",
+      "statusDetails" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+      "time" : {
+        "start" : 1647167897134,
+        "stop" : 1647167897261,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "e9a5dea81218f462",
+      "status" : "broken",
+      "statusDetails" : "CalculatorPage.selectDivWithClassContainingText is not a function",
+      "time" : {
+        "start" : 1647167787300,
+        "stop" : 1647167787468,
+        "duration" : 168
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59e0c6bd99357bcb.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}
